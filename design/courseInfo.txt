@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2000">
+  <!-- Background -->
+  <rect width="1200" height="2000" fill="#F5F5F5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#000000"/>
+  <text x="50" y="50" fill="#FFFFFF" font-family="Arial" font-size="24" font-weight="bold">EDUCATIONAL PLATFORM</text>
+  
+  <!-- Navigation Menu -->
+  <g id="menu">
+    <text x="500" y="50" fill="#FFFFFF" font-family="Arial" font-size="16" text-anchor="middle">HOME</text>
+    <text x="580" y="50" fill="#FFFFFF" font-family="Arial" font-size="16" text-anchor="middle">COURSES</text>
+    <text x="660" y="50" fill="#FFFFFF" font-family="Arial" font-size="16" text-anchor="middle">MENTORS</text>
+    <text x="740" y="50" fill="#FFFFFF" font-family="Arial" font-size="16" text-anchor="middle">ABOUT</text>
+    <text x="820" y="50" fill="#FFFFFF" font-family="Arial" font-size="16" text-anchor="middle">CONTACT</text>
+  </g>
+  
+  <!-- Login/Signup and Profile -->
+  <rect x="950" y="25" width="80" height="30" rx="15" fill="#333333"/>
+  <text x="990" y="45" fill="#FFFFFF" font-family="Arial" font-size="14" text-anchor="middle">LOGIN</text>
+  
+  <rect x="1040" y="25" width="80" height="30" rx="15" fill="#FFFFFF"/>
+  <text x="1080" y="45" fill="#000000" font-family="Arial" font-size="14" text-anchor="middle">SIGNUP</text>
+  
+  <circle cx="900" cy="40" r="15" fill="#FFFFFF"/>
+  <circle cx="900" cy="40" r="13" fill="#333333"/>
+  <path d="M895 36 A5 5 0 0 1 905 36" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <circle cx="900" cy="32" r="3" fill="#FFFFFF"/>
+  
+  <!-- Course Header -->
+  <rect x="0" y="80" width="1200" height="300" fill="#333333"/>
+  <text x="100" y="180" fill="#FFFFFF" font-family="Arial" font-size="36" font-weight="bold">Web Development Professional</text>
+  <text x="100" y="230" fill="#F5F5F5" font-family="Arial" font-size="18">Master the skills needed to become a professional web developer</text>
+  
+  <!-- Course Stats Bar -->
+  <rect x="0" y="380" width="1200" height="80" fill="#FFFFFF"/>
+  
+  <g id="course-stats">
+    <!-- Duration -->
+    <g transform="translate(150, 420)">
+      <text font-family="Arial" font-size="14" fill="#222222" text-anchor="middle">Duration</text>
+      <text font-family="Arial" font-size="18" fill="#000000" text-anchor="middle" y="25" font-weight="bold">12 Weeks</text>
+    </g>
+    
+    <!-- Level -->
+    <g transform="translate(350, 420)">
+      <text font-family="Arial" font-size="14" fill="#222222" text-anchor="middle">Level</text>
+      <text font-family="Arial" font-size="18" fill="#000000" text-anchor="middle" y="25" font-weight="bold">Intermediate</text>
+    </g>
+    
+    <!-- Lessons -->
+    <g transform="translate(550, 420)">
+      <text font-family="Arial" font-size="14" fill="#222222" text-anchor="middle">Lessons</text>
+      <text font-family="Arial" font-size="18" fill="#000000" text-anchor="middle" y="25" font-weight="bold">48</text>
+    </g>
+    
+    <!-- Students -->
+    <g transform="translate(750, 420)">
+      <text font-family="Arial" font-size="14" fill="#222222" text-anchor="middle">Students</text>
+      <text font-family="Arial" font-size="18" fill="#000000" text-anchor="middle" y="25" font-weight="bold">2,457</text>
+    </g>
+    
+    <!-- Rating -->
+    <g transform="translate(950, 420)">
+      <text font-family="Arial" font-size="14" fill="#222222" text-anchor="middle">Rating</text>
+      <g transform="translate(0, 25)">
+        <text font-family="Arial" font-size="18" fill="#000000" text-anchor="middle" font-weight="bold">4.8</text>
+        <!-- 5 stars -->
+        <g transform="translate(30, 0)">
+          <path d="M0,0 L3,9 L12,9 L5,14 L8,23 L0,18 L-8,23 L-5,14 L-12,9 L-3,9 Z" fill="#000000" transform="scale(0.7)"/>
+          <path d="M0,0 L3,9 L12,9 L5,14 L8,23 L0,18 L-8,23 L-5,14 L-12,9 L-3,9 Z" fill="#000000" transform="translate(20, 0) scale(0.7)"/>
+          <path d="M0,0 L3,9 L12,9 L5,14 L8,23 L0,18 L-8,23 L-5,14 L-12,9 L-3,9 Z" fill="#000000" transform="translate(40, 0) scale(0.7)"/>
+          <path d="M0,0 L3,9 L12,9 L5,14 L8,23 L0,18 L-8,23 L-5,14 L-12,9 L-3,9 Z" fill="#000000" transform="translate(60, 0) scale(0.7)"/>
+          <path d="M0,0 L3,9 L12,9 L5,14 L8,23 L0,18 L-8,23 L-5,14 L-12,9 L-3,9 Z" fill="#999999" transform="translate(80, 0) scale(0.7)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Main Content Area -->
+  <g id="main-content">
+    <!-- Left Column (Course Content) -->
+    <g id="course-content" transform="translate(100, 500)">
+      <text font-family="Arial" font-size="24" fill="#222222" font-weight="bold">Course Content</text>
+      
+      <!-- Module 1 -->
+      <g transform="translate(0, 50)">
+        <rect width="700" height="60" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+        <text x="20" y="35" font-family="Arial" font-size="16" fill="#000000" font-weight="bold">Module 1: Introduction to Web Development</text>
+        <text x="680" y="35" font-family="Arial" font-size="14" fill="#333333" text-anchor="end">4 lessons</text>
+      </g>
+      
+      <!-- Module 2 -->
+      <g transform="translate(0, 120)">
+        <rect width="700" height="60" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+        <text x="20" y="35" font-family="Arial" font-size="16" fill="#000000" font-weight="bold">Module 2: HTML & CSS Fundamentals</text>
+        <text x="680" y="35" font-family="Arial" font-size="14" fill="#333333" text-anchor="end">6 lessons</text>
+      </g>
+      
+      <!-- Module 3 -->
+      <g transform="translate(0, 190)">
+        <rect width="700" height="60" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+        <text x="20" y="35" font-family="Arial" font-size="16" fill="#000000" font-weight="bold">Module 3: Responsive Design</text>
+        <text x="680" y="35" font-family="Arial" font-size="14" fill="#333333" text-anchor="end">5 lessons</text>
+      </g>
+      
+      <!-- Module 4 -->
+      <g transform="translate(0, 260)">
+        <rect width="700" height="60" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+        <text x="20" y="35" font-family="Arial" font-size="16" fill="#000000" font-weight="bold">Module 4: JavaScript Basics</text>
+        <text x="680" y="35" font-family="Arial" font-size="14" fill="#333333" text-anchor="end">8 lessons</text>
+      </g>
+      
+      <!-- Module 5 -->
+      <g transform="translate(0, 330)">
+        <rect width="700" height="60" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+        <text x="20" y="35" font-family="Arial" font-size="16" fill="#000000" font-weight="bold">Module 5: DOM Manipulation</text>
+        <text x="680" y="35" font-family="Arial" font-size="14" fill="#333333" text-anchor="end">7 lessons</text>
+      </g>
+      
+      <!-- More Modules ... -->
+      <g transform="translate(0, 400)">
+        <rect width="700" height="60" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+        <text x="20" y="35" font-family="Arial" font-size="16" fill="#000000" font-weight="bold">Module 6: Front-End Frameworks</text>
+        <text x="680" y="35" font-family="Arial" font-size="14" fill="#333333" text-anchor="end">6 lessons</text>
+      </g>
+      
+      <g transform="translate(0, 470)">
+        <rect width="700" height="60" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+        <text x="20" y="35" font-family="Arial" font-size="16" fill="#000000" font-weight="bold">Module 7: Backend Basics</text>
+        <text x="680" y="35" font-family="Arial" font-size="14" fill="#333333" text-anchor="end">5 lessons</text>
+      </g>
+      
+      <g transform="translate(0, 540)">
+        <rect width="700" height="60" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+        <text x="20" y="35" font-family="Arial" font-size="16" fill="#000000" font-weight="bold">Module 8: Databases & APIs</text>
+        <text x="680" y="35" font-family="Arial" font-size="14" fill="#333333" text-anchor="end">4 lessons</text>
+      </g>
+      
+      <g transform="translate(0, 610)">
+        <rect width="700" height="60" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+        <text x="20" y="35" font-family="Arial" font-size="16" fill="#000000" font-weight="bold">Module 9: Deployment & DevOps</text>
+        <text x="680" y="35" font-family="Arial" font-size="14" fill="#333333" text-anchor="end">3 lessons</text>
+      </g>
+      
+      <!-- Course Description -->
+      <g transform="translate(0, 720)">
+        <text font-family="Arial" font-size="24" fill="#222222" font-weight="bold">About This Course</text>
+        <foreignObject x="0" y="40" width="700" height="200">
+          <p xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial; font-size: 16px; line-height: 1.6; color: #333333; margin: 0;">
+            This comprehensive web development course will take you from beginner to professional developer. You'll learn all the essential skills needed to build modern, responsive websites and web applications. Starting with the fundamentals of HTML and CSS, you'll progress through JavaScript, responsive design, and front-end frameworks.
+          </p>
+          <p xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial; font-size: 16px; line-height: 1.6; color: #333333; margin-top: 20px;">
+            As you advance, you'll also learn backend development basics, working with databases, APIs, and deploying your applications. By the end of this course, you'll have built a portfolio of projects that demonstrate your skills to potential employers.
+          </p>
+        </foreignObject>
+      </g>
+      
+      <!-- What You'll Learn -->
+      <g transform="translate(0, 980)">
+        <text font-family="Arial" font-size="24" fill="#222222" font-weight="bold">What You'll Learn</text>
+        
+        <g transform="translate(0, 50)">
+          <rect width="320" height="80" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+          <text x="20" y="35" font-family="Arial" font-size="16" fill="#333333">Build responsive websites using HTML5 and CSS3</text>
+        </g>
+        
+        <g transform="translate(380, 50)">
+          <rect width="320" height="80" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+          <text x="20" y="35" font-family="Arial" font-size="16" fill="#333333">Create interactive web applications with JavaScript</text>
+        </g>
+        
+        <g transform="translate(0, 140)">
+          <rect width="320" height="80" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+          <text x="20" y="35" font-family="Arial" font-size="16" fill="#333333">Work with popular front-end frameworks</text>
+        </g>
+        
+        <g transform="translate(380, 140)">
+          <rect width="320" height="80" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+          <text x="20" y="35" font-family="Arial" font-size="16" fill="#333333">Understand backend development basics</text>
+        </g>
+      </g>
+    </g>
+    
+    <!-- Right Column (Enrollment) -->
+    <g id="enrollment" transform="translate(870, 500)">
+      <rect width="330" height="450" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+      
+      <!-- Price -->
+      <text x="30" y="50" font-family="Arial" font-size="36" fill="#000000" font-weight="bold">$499</text>
+      <text x="130" y="50" font-family="Arial" font-size="16" fill="#333333" text-decoration="line-through">$699</text>
+      
+      <!-- Enrollment Button -->
+      <rect x="30" y="80" width="270" height="50" rx="25" fill="#000000"/>
+      <text x="165" y="112" font-family="Arial" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ENROLL NOW</text>
+      
+      <!-- Alternative Button -->
+      <rect x="30" y="145" width="270" height="50" rx="25" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+      <text x="165" y="177" font-family="Arial" font-size="18" fill="#000000" text-anchor="middle" font-weight="bold">ADD TO WISHLIST</text>
+      
+      <!-- Course Includes -->
+      <text x="30" y="230" font-family="Arial" font-size="18" fill="#222222" font-weight="bold">This Course Includes:</text>
+      
+      <g transform="translate(30, 260)">
+        <text font-family="Arial" font-size="15" fill="#333333">• 48 video lessons (72 hours)</text>
+        <text font-family="Arial" font-size="15" fill="#333333" y="30">• 12 coding exercises</text>
+        <text font-family="Arial" font-size="15" fill="#333333" y="60">• 9 practical projects</text>
+        <text font-family="Arial" font-size="15" fill="#333333" y="90">• Certificate of completion</text>
+        <text font-family="Arial" font-size="15" fill="#333333" y="120">• Lifetime access</text>
+        <text font-family="Arial" font-size="15" fill="#333333" y="150">• Forum support</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Instructor Section -->
+  <g id="instructor" transform="translate(100, 1650)">
+    <text font-family="Arial" font-size="24" fill="#222222" font-weight="bold">Your Instructor</text>
+    
+    <g transform="translate(0, 50)">
+      <circle cx="60" cy="60" r="60" fill="#000000"/>
+      <text x="150" y="40" font-family="Arial" font-size="20" fill="#222222" font-weight="bold">Dr. Sarah Johnson</text>
+      <text x="150" y="70" font-family="Arial" font-size="16" fill="#333333">Senior Web Developer & Educator</text>
+      
+      <foreignObject x="150" y="90" width="550" height="100">
+        <p xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial; font-size: 15px; line-height: 1.6; color: #333333; margin: 0;">
+          Dr. Johnson has over 15 years of experience in web development and has taught thousands of students worldwide. She's worked with major tech companies and startups, and brings real-world expertise to her teaching.
+        </p>
+      </foreignObject>
+    </g>
+  </g>
+  
+  <!-- Footer -->
+  <rect x="0" y="1850" width="1200" height="150" fill="#000000"/>
+  
+  <!-- Footer Links -->
+  <g id="footer-links" transform="translate(100, 1900)">
+    <text font-family="Arial" font-size="16" fill="#FFFFFF" font-weight="bold">Quick Links</text>
+    <text font-family="Arial" font-size="14" fill="#F5F5F5" y="30">About Us</text>
+    <text font-family="Arial" font-size="14" fill="#F5F5F5" y="55">Support</text>
+    <text font-family="Arial" font-size="14" fill="#F5F5F5" y="80">Privacy Policy</text>
+  </g>
+  
+  <g id="footer-links-2" transform="translate(300, 1900)">
+    <text font-family="Arial" font-size="16" fill="#FFFFFF" font-weight="bold">Resources</text>
+    <text font-family="Arial" font-size="14" fill="#F5F5F5" y="30">Blog</text>
+    <text font-family="Arial" font-size="14" fill="#F5F5F5" y="55">Tutorials</text>
+    <text font-family="Arial" font-size="14" fill="#F5F5F5" y="80">FAQs</text>
+  </g>
+  
+  <g id="footer-social" transform="translate(800, 1900)">
+    <text font-family="Arial" font-size="16" fill="#FFFFFF" font-weight="bold">Connect With Us</text>
+    
+    <!-- Social Icons (simplified) -->
+    <circle cx="30" cy="40" r="15" fill="#F5F5F5"/>
+    <circle cx="70" cy="40" r="15" fill="#F5F5F5"/>
+    <circle cx="110" cy="40" r="15" fill="#F5F5F5"/>
+    <circle cx="150" cy="40" r="15" fill="#F5F5F5"/>
+  </g>
+  
+  <!-- Copyright -->
+  <text x="600" y="1980" fill="#F5F5F5" font-family="Arial" font-size="12" text-anchor="middle">© 2025 Educational Platform. All rights reserved.</text>
+</svg>

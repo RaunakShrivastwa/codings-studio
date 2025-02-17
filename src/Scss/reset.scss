@@ -1,0 +1,88 @@
+
+
+// Box Sizing Reset
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// Typography Reset
+html,
+body {
+    font-family: sans-serif; // Use a generic sans-serif font
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000; // Set text color to black
+    background-color: #f8f9fa;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul{
+    margin: 0;
+}
+
+// Reset Headings (h1-h6)
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+// Reset Paragraph
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a,
+Link {
+    text-decoration: none;
+    color: black;
+}
+
+// Reset Input Fields
+input,
+textarea {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+// Reset Buttons
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.main{
+    flex-grow: 1;
+    background-color: lightcoral;
+    width: 100%;
+    overflow-y: auto;
+}
+

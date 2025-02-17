@@ -1,0 +1,21 @@
+@import "../variables.scss";
+@import '../function.scss';
+
+button{
+    min-width: rem(65);
+    @include flex(center,center);
+}
+
+.btn_outline {
+  border: rem(1) solid var(--black-100);
+  color: var(--black-100);
+  padding: rem(8) rem(12);
+  border-radius: rem(30);
+}
+
+.btn_fill {
+  background-color: var(--black-100);
+  color: var(--white);
+  padding: rem(8) rem(12);
+  border-radius: rem(30);
+}

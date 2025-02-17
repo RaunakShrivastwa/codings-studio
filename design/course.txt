@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 5800">
+  <!-- Color Palette -->
+  <!-- Primary: #000000 (Black) -->
+  <!-- Secondary: #F5F5F5 (Light Gray) -->
+  <!-- Accent: #333333 (Dark Gray) -->
+  <!-- Text: #222222 (Near Black) -->
+  <!-- White: #FFFFFF -->
+  
+  <!-- Background -->
+  <rect width="1440" height="5800" fill="#FFFFFF"/>
+  
+  <!-- Header Section - Fixed Navigation -->
+  <rect width="1440" height="80" fill="#000000"/>
+  <!-- Logo -->
+  <text x="120" y="50" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="bold">WEBDEV ACADEMY</text>
+  <!-- Navigation -->
+  <text x="850" y="50" font-family="Arial" font-size="16" fill="#FFFFFF">Home</text>
+  <text x="950" y="50" font-family="Arial" font-size="16" fill="#FFFFFF">Courses</text>
+  <text x="1050" y="50" font-family="Arial" font-size="16" fill="#FFFFFF">About</text>
+  <text x="1150" y="50" font-family="Arial" font-size="16" fill="#FFFFFF">Contact</text>
+  <rect x="1250" y="30" width="80" height="36" rx="18" fill="transparent" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="1265" y="53" font-family="Arial" font-size="14" fill="#FFFFFF">Login</text>
+  <rect x="1340" y="30" width="80" height="36" rx="18" fill="#FFFFFF"/>
+  <text x="1352" y="53" font-family="Arial" font-size="14" fill="#000000">Sign Up</text>
+  
+  <!-- Hero Section - Improved with subtle patterns -->
+  <rect y="80" width="1440" height="520" fill="#F5F5F5"/>
+  <!-- Subtle pattern overlay -->
+  <path d="M0 80 L1440 80 L1440 600 L0 600 Z" fill="#000000" fill-opacity="0.03"/>
+  <!-- Left side content -->
+  <text x="120" y="230" font-family="Arial" font-size="52" fill="#000000" font-weight="bold" width="600">Master Web Development</text>
+  <text x="120" y="290" font-family="Arial" font-size="52" fill="#000000" font-weight="bold" width="600">in 2025</text>
+  <text x="120" y="360" font-family="Arial" font-size="20" fill="#333333" width="500">From beginner to professional, our expert-led courses will guide you through every step of becoming a successful web developer.</text>
+  <!-- Hero CTA Buttons -->
+  <rect x="120" y="420" width="200" height="50" rx="25" fill="#000000"/>
+  <text x="155" y="452" font-family="Arial" font-size="16" fill="#FFFFFF" font-weight="bold">Start Learning</text>
+  <rect x="340" y="420" width="200" height="50" rx="25" fill="transparent" stroke="#000000" stroke-width="2"/>
+  <text x="380" y="452" font-family="Arial" font-size="16" fill="#000000">View Courses</text>
+  <!-- Decorative elements -->
+  <rect x="850" y="150" width="450" height="300" rx="8" fill="#FFFFFF" stroke="#EEEEEE" stroke-width="2"/>
+  <!-- Code snippet decoration -->
+  <rect x="870" y="180" width="410" height="30" rx="4" fill="#F5F5F5"/>
+  <text x="890" y="200" font-family="Courier New" font-size="14" fill="#333333">&lt;div class="container"&gt;</text>
+  <rect x="890" y="220" width="390" height="160" rx="4" fill="#FFFFFF"/>
+  <text x="910" y="245" font-family="Courier New" font-size="14" fill="#0000FF">.hero {</text>
+  <text x="930" y="270" font-family="Courier New" font-size="14" fill="#333333">  display: flex;</text>
+  <text x="930" y="295" font-family="Courier New" font-size="14" fill="#333333">  justify-content: center;</text>
+  <text x="930" y="320" font-family="Courier New" font-size="14" fill="#333333">  background: #f5f5f5;</text>
+  <text x="930" y="345" font-family="Courier New" font-size="14" fill="#333333">  border-radius: 8px;</text>
+  <text x="910" y="370" font-family="Courier New" font-size="14" fill="#0000FF">}</text>
+  <text x="890" y="395" font-family="Courier New" font-size="14" fill="#333333">&lt;/div&gt;</text>
+  
+  <!-- Stats section -->
+  <rect y="600" width="1440" height="160" fill="#000000"/>
+  <!-- Stat 1 -->
+  <text x="240" y="665" font-family="Arial" font-size="36" fill="#FFFFFF" font-weight="bold">15,000+</text>
+  <text x="240" y="705" font-family="Arial" font-size="16" fill="#FFFFFF">Students Enrolled</text>
+  <!-- Stat 2 -->
+  <text x="570" y="665" font-family="Arial" font-size="36" fill="#FFFFFF" font-weight="bold">25+</text>
+  <text x="570" y="705" font-family="Arial" font-size="16" fill="#FFFFFF">Professional Courses</text>
+  <!-- Stat 3 -->
+  <text x="900" y="665" font-family="Arial" font-size="36" fill="#FFFFFF" font-weight="bold">92%</text>
+  <text x="900" y="705" font-family="Arial" font-size="16" fill="#FFFFFF">Completion Rate</text>
+  <!-- Stat 4 -->
+  <text x="1200" y="665" font-family="Arial" font-size="36" fill="#FFFFFF" font-weight="bold">4.8/5</text>
+  <text x="1200" y="705" font-family="Arial" font-size="16" fill="#FFFFFF">Student Satisfaction</text>
+  
+  <!-- Course Search Section -->
+  <text x="120" y="840" font-family="Arial" font-size="36" fill="#000000" font-weight="bold">Find Your Perfect Course</text>
+  <text x="120" y="890" font-family="Arial" font-size="18" fill="#333333" width="500">Search our catalog of professional web development courses</text>
+  
+  <!-- Improved Search Bar -->
+  <rect x="120" y="940" width="800" height="60" rx="30" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="160" y="978" font-family="Arial" font-size="16" fill="#999999">Search for courses, topics, or skills...</text>
+  <rect x="920" y="940" width="120" height="60" rx="30" fill="#000000"/>
+  <text x="952" y="978" font-family="Arial" font-size="16" fill="#FFFFFF">Search</text>
+  
+  <!-- Filter Section -->
+  <rect y="1050" width="1440" height="100" fill="#F5F5F5"/>
+  <text x="120" y="1100" font-family="Arial" font-size="18" fill="#222222" font-weight="bold">Filter By:</text>
+  
+  <!-- Improved Filter Pills -->
+  <rect x="250" y="1075" width="120" height="40" rx="20" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="285" y="1100" font-family="Arial" font-size="14" fill="#222222">Level</text>
+  <rect x="380" y="1075" width="120" height="40" rx="20" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="415" y="1100" font-family="Arial" font-size="14" fill="#222222">Duration</text>
+  <rect x="510" y="1075" width="120" height="40" rx="20" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="545" y="1100" font-family="Arial" font-size="14" fill="#222222">Price</text>
+  <rect x="640" y="1075" width="120" height="40" rx="20" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="675" y="1100" font-family="Arial" font-size="14" fill="#222222">Rating</text>
+  <rect x="770" y="1075" width="140" height="40" rx="20" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="795" y="1100" font-family="Arial" font-size="14" fill="#222222">Certificate</text>
+  
+  <!-- Sort Option -->
+  <text x="1000" y="1100" font-family="Arial" font-size="18" fill="#222222" font-weight="bold">Sort By:</text>
+  <rect x="1100" y="1075" width="220" height="40" rx="5" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="1125" y="1100" font-family="Arial" font-size="14" fill="#222222">Most Popular</text>
+  
+  <!-- Course Grid - Row 1 - Improved card design -->
+  <!-- Course 1 -->
+  <rect x="120" y="1200" width="380" height="450" rx="12" fill="#FFFFFF" filter="drop-shadow(0px 4px 8px rgba(0,0,0,0.1))"/>
+  <rect x="120" y="1200" width="380" height="220" rx="12 12 0 0" fill="#F5F5F5"/>
+  <rect x="140" y="1250" width="60" height="60" rx="30" fill="#000000"/>
+  <text x="160" y="1290" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="bold">HTML</text>
+  <text x="140" y="1360" font-family="Arial" font-size="22" fill="#222222" font-weight="bold">HTML & CSS Fundamentals</text>
+  <rect x="140" y="1400" width="80" height="28" rx="14" fill="#333333"/>
+  <text x="157" y="1419" font-family="Arial" font-size="12" fill="#FFFFFF">Beginner</text>
+  <text x="140" y="1450" font-family="Arial" font-size="16" fill="#333333" width="340">Learn the building blocks of web development</text>
+  <rect x="140" y="1490" width="1" height="1" fill="none" stroke="#EEEEEE" stroke-width="1" stroke-dasharray="2 2" width="340"/>
+  <text x="140" y="1520" font-family="Arial" font-size="16" fill="#222222" font-weight="bold">Course Includes:</text>
+  <text x="140" y="1550" font-family="Arial" font-size="14" fill="#333333">• 32 Video Lessons</text>
+  <text x="140" y="1575" font-family="Arial" font-size="14" fill="#333333">• 15 Coding Exercises</text>
+  <text x="140" y="1600" font-family="Arial" font-size="14" fill="#333333">• 5 Real-world Projects</text>
+  <text x="295" y="1600" font-family="Arial" font-size="24" fill="#222222" font-weight="bold">$49.99</text>
+  <rect x="295" y="1530" width="150" height="40" rx="20" fill="#000000"/>
+  <text x="325" y="1555" font-family="Arial" font-size="16" fill="#FFFFFF">Enroll Now</text>
+  
+  <!-- Course 2 -->
+  <rect x="530" y="1200" width="380" height="450" rx="12" fill="#FFFFFF" filter="drop-shadow(0px 4px 8px rgba(0,0,0,0.1))"/>
+  <rect x="530" y="1200" width="380" height="220" rx="12 12 0 0" fill="#F5F5F5"/>
+  <rect x="550" y="1250" width="60" height="60" rx="30" fill="#000000"/>
+  <text x="568" y="1290" font-family="Arial" font-size="22" fill="#FFFFFF" font-weight="bold">JS</text>
+  <text x="550" y="1360" font-family="Arial" font-size="22" fill="#222222" font-weight="bold">JavaScript Essentials</text>
+  <rect x="550" y="1400" width="110" height="28" rx="14" fill="#333333"/>
+  <text x="567" y="1419" font-family="Arial" font-size="12" fill="#FFFFFF">Intermediate</text>
+  <text x="550" y="1450" font-family="Arial" font-size="16" fill="#333333" width="340">Master the language of the web</text>
+  <rect x="550" y="1490" width="1" height="1" fill="none" stroke="#EEEEEE" stroke-width="1" stroke-dasharray="2 2" width="340"/>
+  <text x="550" y="1520" font-family="Arial" font-size="16" fill="#222222" font-weight="bold">Course Includes:</text>
+  <text x="550" y="1550" font-family="Arial" font-size="14" fill="#333333">• 45 Video Lessons</text>
+  <text x="550" y="1575" font-family="Arial" font-size="14" fill="#333333">• 25 Coding Exercises</text>
+  <text x="550" y="1600" font-family="Arial" font-size="14" fill="#333333">• 8 Real-world Projects</text>
+  <text x="705" y="1600" font-family="Arial" font-size="24" fill="#222222" font-weight="bold">$69.99</text>
+  <rect x="705" y="1530" width="150" height="40" rx="20" fill="#000000"/>
+  <text x="735" y="1555" font-family="Arial" font-size="16" fill="#FFFFFF">Enroll Now</text>
+  
+  <!-- Course 3 -->
+  <rect x="940" y="1200" width="380" height="450" rx="12" fill="#FFFFFF" filter="drop-shadow(0px 4px 8px rgba(0,0,0,0.1))"/>
+  <rect x="940" y="1200" width="380" height="220" rx="12 12 0 0" fill="#F5F5F5"/>
+  <rect x="960" y="1250" width="60" height="60" rx="30" fill="#000000"/>
+  <text x="977" y="1290" font-family="Arial" font-size="20" fill="#FFFFFF" font-weight="bold">RWD</text>
+  <text x="960" y="1360" font-family="Arial" font-size="22" fill="#222222" font-weight="bold">Responsive Web Design</text>
+  <rect x="960" y="1400" width="110" height="28" rx="14" fill="#333333"/>
+  <text x="977" y="1419" font-family="Arial" font-size="12" fill="#FFFFFF">Intermediate</text>
+  <text x="960" y="1450" font-family="Arial" font-size="16" fill="#333333" width="340">Create websites that work on all devices</text>
+  <rect x="960" y="1490" width="1" height="1" fill="none" stroke="#EEEEEE" stroke-width="1" stroke-dasharray="2 2" width="340"/>
+  <text x="960" y="1520" font-family="Arial" font-size="16" fill="#222222" font-weight="bold">Course Includes:</text>
+  <text x="960" y="1550" font-family="Arial" font-size="14" fill="#333333">• 28 Video Lessons</text>
+  <text x="960" y="1575" font-family="Arial" font-size="14" fill="#333333">• 12 Coding Exercises</text>
+  <text x="960" y="1600" font-family="Arial" font-size="14" fill="#333333">• 6 Real-world Projects</text>
+  <text x="1115" y="1600" font-family="Arial" font-size="24" fill="#222222" font-weight="bold">$59.99</text>
+  <rect x="1115" y="1530" width="150" height="40" rx="20" fill="#000000"/>
+  <text x="1145" y="1555" font-family="Arial" font-size="16" fill="#FFFFFF">Enroll Now</text>
+  
+  <!-- Course Grid - Row 2 -->
+  <!-- Course 4 -->
+  <rect x="120" y="1700" width="380" height="450" rx="12" fill="#FFFFFF" filter="drop-shadow(0px 4px 8px rgba(0,0,0,0.1))"/>
+  <rect x="120" y="1700" width="380" height="220" rx="12 12 0 0" fill="#F5F5F5"/>
+  <rect x="140" y="1750" width="60" height="60" rx="30" fill="#000000"/>
+  <text x="158" y="1790" font-family="Arial" font-size="18" fill="#FFFFFF" font-weight="bold">REACT</text>
+  <text x="140" y="1860" font-family="Arial" font-size="22" fill="#222222" font-weight="bold">React.js Front-End Development</text>
+  <rect x="140" y="1900" width="80" height="28" rx="14" fill="#333333"/>
+  <text x="157" y="1919" font-family="Arial" font-size="12" fill="#FFFFFF">Advanced</text>
+  <text x="140" y="1950" font-family="Arial" font-size="16" fill="#333333" width="340">Build modern, reactive user interfaces</text>
+  <rect x="140" y="1990" width="1" height="1" fill="none" stroke="#EEEEEE" stroke-width="1" stroke-dasharray="2 2" width="340"/>
+  <text x="140" y="2020" font-family="Arial" font-size="16" fill="#222222" font-weight="bold">Course Includes:</text>
+  <text x="140" y="2050" font-family="Arial" font-size="14" fill="#333333">• 52 Video Lessons</text>
+  <text x="140" y="2075" font-family="Arial" font-size="14" fill="#333333">• 30 Coding Exercises</text>
+  <text x="140" y="2100" font-family="Arial" font-size="14" fill="#333333">• 10 Real-world Projects</text>
+  <text x="295" y="2100" font-family="Arial" font-size="24" fill="#222222" font-weight="bold">$89.99</text>
+  <rect x="295" y="2030" width="150" height="40" rx="20" fill="#000000"/>
+  <text x="325" y="2055" font-family="Arial" font-size="16" fill="#FFFFFF">Enroll Now</text>
+  
+  <!-- Course 5 -->
+  <rect x="530" y="1700" width="380" height="450" rx="12" fill="#FFFFFF" filter="drop-shadow(0px 4px 8px rgba(0,0,0,0.1))"/>
+  <rect x="530" y="1700" width="380" height="220" rx="12 12 0 0" fill="#F5F5F5"/>
+  <rect x="550" y="1750" width="60" height="60" rx="30" fill="#000000"/>
+  <text x="560" y="1790" font-family="Arial" font-size="20" fill="#FFFFFF" font-weight="bold">NODE</text>
+  <text x="550" y="1860" font-family="Arial" font-size="22" fill="#222222" font-weight="bold">Node.js Back-End Development</text>
+  <rect x="550" y="1900" width="80" height="28" rx="14" fill="#333333"/>
+  <text x="567" y="1919" font-family="Arial" font-size="12" fill="#FFFFFF">Advanced</text>
+  <text x="550" y="1950" font-family="Arial" font-size="16" fill="#333333" width="340">Create powerful server-side applications</text>
+  <rect x="550" y="1990" width="1" height="1" fill="none" stroke="#EEEEEE" stroke-width="1" stroke-dasharray="2 2" width="340"/>
+  <text x="550" y="2020" font-family="Arial" font-size="16" fill="#222222" font-weight="bold">Course Includes:</text>
+  <text x="550" y="2050" font-family="Arial" font-size="14" fill="#333333">• 48 Video Lessons</text>
+  <text x="550" y="2075" font-family="Arial" font-size="14" fill="#333333">• 28 Coding Exercises</text>
+  <text x="550" y="2100" font-family="Arial" font-size="14" fill="#333333">• 9 Real-world Projects</text>
+  <text x="705" y="2100" font-family="Arial" font-size="24" fill="#222222" font-weight="bold">$79.99</text>
+  <rect x="705" y="2030" width="150" height="40" rx="20" fill="#000000"/>
+  <text x="735" y="2055" font-family="Arial" font-size="16" fill="#FFFFFF">Enroll Now</text>
+  
+  <!-- Course 6 -->
+  <rect x="940" y="1700" width="380" height="450" rx="12" fill="#FFFFFF" filter="drop-shadow(0px 4px 8px rgba(0,0,0,0.1))"/>
+  <rect x="940" y="1700" width="380" height="220" rx="12 12 0 0" fill="#F5F5F5"/>
+  <rect x="960" y="1750" width="60" height="60" rx="30" fill="#000000"/>
+  <text x="980" y="1790" font-family="Arial" font-size="20" fill="#FFFFFF" font-weight="bold">FS</text>
+  <text x="960" y="1860" font-family="Arial" font-size="22" fill="#222222" font-weight="bold">Full-Stack Web Development</text>
+  <rect x="960" y="1900" width="80" height="28" rx="14" fill="#333333"/>
+  <text x="977" y="1919" font-family="Arial" font-size="12" fill="#FFFFFF">Advanced</text>
+  <text x="960" y="1950" font-family="Arial" font-size="16" fill="#333333" width="340">Master both front-end and back-end</text>
+  <rect x="960" y="1990" width="1" height="1" fill="none" stroke="#EEEEEE" stroke-width="1" stroke-dasharray="2 2" width="340"/>
+  <text x="960" y="2020" font-family="Arial" font-size="16" fill="#222222" font-weight="bold">Course Includes:</text>
+  <text x="960" y="2050" font-family="Arial" font-size="14" fill="#333333">• 85 Video Lessons</text>
+  <text x="960" y="2075" font-family="Arial" font-size="14" fill="#333333">• 45 Coding Exercises</text>
+  <text x="960" y="2100" font-family="Arial" font-size="14" fill="#333333">• 15 Real-world Projects</text>
+  <text x="1115" y="2100" font-family="Arial" font-size="24" fill="#222222" font-weight="bold">$119.99</text>
+  <rect x="1115" y="2030" width="150" height="40" rx="20" fill="#000000"/>
+  <text x="1145" y="2055" font-family="Arial" font-size="16" fill="#FFFFFF">Enroll Now</text>
+  
+  <!-- Course Grid - Row 3 -->
+  <!-- Course 7 -->
+  <rect x="120" y="2200" width="380" height="450" rx="12" fill="#FFFFFF" filter="drop-shadow(0px 4px 8px rgba(0,0,0,0.1))"/>
+  <rect x="120" y="2200" width="380" height="220" rx="12 12 0 0" fill="#F5F5F5"/>
+  <rect x="140" y="2250" width="60" height="60" rx="30" fill="#000000"/>
+  <text x="153" y="2290" font-family="Arial" font-size="20" fill="#FFFFFF" font-weight="bold">UI/UX</text>
+  <text x="140" y="2360" font-family="Arial" font-size="22" fill="#222222" font-weight="bold">UI/UX Design for Developers</text>
+  <rect x="140" y="2400" width="110" height="28" rx="14" fill="#333333"/>
+  <text x="157" y="2419" font-family="Arial" font-size="12" fill="#FFFFFF">Intermediate</text>
+  <text x="140" y="2450" font-family="Arial" font-size="16" fill="#333333" width="340">Design beautiful, user-friendly interfaces</text>
+  <rect x="140" y="2490" width="1" height="1" fill="none" stroke="#EEEEEE" stroke-width="1" stroke-dasharray="2 2" width="340"/>
+  <text x="140" y="2520" font-family="Arial" font-size="16" fill="#222222" font-weight="bold">Course Includes:</text>
+  <text x="140" y="2550" font-family="Arial" font-size="14" fill="#333333">• 42 Video Lessons</text>
+  <text x="140" y="2575" font-family="Arial" font-size="14" fill="#333333">• 20 Design Exercises</text>
+  <text x="140" y="2600" font-family="Arial" font-size="14" fill="#333333">• 8 Portfolio Projects</text>
+  <text x="295" y="2600" font-family="Arial" font-size="24" fill="#222222" font-weight="bold">$74.99</text>
+  <rect x="295" y="2530" width="150" height="40" rx="20" fill="#000000"/>
+  <text x="325" y="2555" font-family="Arial" font-size="16" fill="#FFFFFF">Enroll Now</text>
+  
+  <!-- Course 8 -->
+  <rect x="530" y="2200" width="380" height="450" rx="12" fill="#FFFFFF" filter="drop-shadow(0px 4px 8px rgba(0,0,0,0.1))"/>
+  <rect x="530" y="2200" width="380" height="220" rx="12 12 0 0" fill="#F5F5F5"/>
+  <rect x="550" y="2250" width="60" height="60" rx="30" fill="#000000"/>
+  <text x="560" y="2290" font-family="Arial" font-size="16" fill="#FFFFFF" font-weight="bold">MONGO</text>
+  <text x="550" y="2360" font-family="Arial" font-size="22" fill="#222222" font-weight="bold">MongoDB Database Design</text>
+  <rect x="550" y="2400" width="110" height="28" rx="14" fill="#333333"/>
+  <text x="567" y="2419" font-family="Arial" font-size="12" fill="#FFFFFF">Intermediate</text>
+  <text x="550" y="2450" font-family="Arial" font-size="16" fill="#333333" width="340">Build scalable, flexible NoSQL databases</text>
+  <rect x="550" y="2490" width="1" height="1" fill="none" stroke="#EEEEEE" stroke-width="1" stroke-dasharray="2 2" width="340"/>
+  <text x="550" y="2520" font-family="Arial" font-size="16" fill="#222222" font-weight="bold">Course Includes:</text>
+  <text x="550" y="2550" font-family="Arial" font-size="14" fill="#333333">• 36 Video Lessons</text>
+  <text x="550" y="2575" font-family="Arial" font-size="14" fill="#333333">• 18 Practice Exercises</text>
+  <text x="550" y="2600" font-family="Arial" font-size="14" fill="#333333">• 6 Database Projects</text>
+  <text x="705" y="2600" font-family="Arial" font-size="24" fill="#222222" font-weight="bold">$64.99</text>
+  <rect x="705" y="2530" width="150" height="40" rx="20" fill="#000000"/>
+  <text x="735" y="2555" font-family="Arial" font-size="16" fill="#FFFFFF">Enroll Now</text>
+  
+  <!-- Course 9 -->
+  <rect x="940" y="2200" width="380" height="450" rx="12" fill="#FFFFFF" filter="drop-shadow(0px 4px 8px rgba(0,0,0,0.1))"/>
+  <rect x="940" y="2200" width="380" height="220" rx="12 12 0 0" fill="#F5F5F5"/>
+  <rect x="960" y="2250" width="60" height="60" rx="30" fill="#000000"/>
+  <text x="971" y="2290" font-family="Arial" font-size="18" fill="#FFFFFF" font-weight="bold">SEC</text>
+  <text x="960" y="2360" font-family="Arial" font-size="22" fill="#222222" font-weight="bold">Web Security Fundamentals</text>
+  <rect x="960" y="2400" width="80" height="28" rx="14" fill="#333333"/>
+  <text x="977" y="2419" font-family="Arial" font-size="12" fill="#

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import "./Scss//font.scss";
+@import "./Scss//function.scss";
+@import "./Scss//mixing.scss";
+@import "./Scss//variables.scss";
+@import "./Scss/reset.scss";
+@import './Scss/Components/Button.scss';
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+main{
+    overflow-y: auto;
+    height: calc(100vh - 70px);
+    padding: rem(20);
+}

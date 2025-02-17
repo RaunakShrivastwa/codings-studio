@@ -1,0 +1,171 @@
+svg xmlns=httpwww.w3.org2000svg viewBox=0 0 1200 2000
+  !-- Background --
+  rect width=1200 height=2000 fill=#F5F5F5
+  
+  !-- Header --
+  rect x=0 y=0 width=1200 height=80 fill=#000000
+  text x=50 y=50 fill=#FFFFFF font-family=Arial font-size=24 font-weight=boldEDUCATIONAL PLATFORMtext
+  
+  !-- Navigation Menu --
+  g id=menu
+    text x=500 y=50 fill=#FFFFFF font-family=Arial font-size=16 text-anchor=middleHOMEtext
+    text x=580 y=50 fill=#FFFFFF font-family=Arial font-size=16 text-anchor=middleCOURSEStext
+    text x=660 y=50 fill=#FFFFFF font-family=Arial font-size=16 text-anchor=middleMENTORStext
+    text x=740 y=50 fill=#FFFFFF font-family=Arial font-size=16 text-anchor=middleABOUTtext
+    text x=820 y=50 fill=#FFFFFF font-family=Arial font-size=16 text-anchor=middleCONTACTtext
+  g
+  
+  !-- LoginSignup and Profile --
+  rect x=950 y=25 width=80 height=30 rx=15 fill=#333333
+  text x=990 y=45 fill=#FFFFFF font-family=Arial font-size=14 text-anchor=middleLOGINtext
+  
+  rect x=1040 y=25 width=80 height=30 rx=15 fill=#FFFFFF
+  text x=1080 y=45 fill=#000000 font-family=Arial font-size=14 text-anchor=middleSIGNUPtext
+  
+  circle cx=900 cy=40 r=15 fill=#FFFFFF
+  circle cx=900 cy=40 r=13 fill=#333333
+  path d=M895 36 A5 5 0 0 1 905 36 stroke=#FFFFFF stroke-width=2 fill=none
+  circle cx=900 cy=32 r=3 fill=#FFFFFF
+  
+  !-- Hero Section (Redesigned) --
+  rect x=0 y=80 width=1200 height=450 fill=#333333
+  
+  !-- Abstract shape elements in hero --
+  circle cx=200 cy=200 r=100 fill=#000000 opacity=0.3
+  rect x=800 y=150 width=150 height=150 rx=20 fill=#000000 opacity=0.2
+  path d=M600 400 L700 300 L800 400 stroke=#FFFFFF stroke-width=3 fill=none opacity=0.5
+  
+  text x=600 y=220 fill=#FFFFFF font-family=Arial font-size=40 font-weight=bold text-anchor=middleTRANSFORM YOUR FUTUREtext
+  text x=600 y=280 fill=#F5F5F5 font-family=Arial font-size=20 text-anchor=middle width=600Master in-demand skills with our expert-led coursestext
+  
+  g id=hero-buttons
+    rect x=450 y=340 width=180 height=50 rx=25 fill=#FFFFFF
+    text x=540 y=375 fill=#000000 font-family=Arial font-size=18 font-weight=bold text-anchor=middleSTART LEARNINGtext
+    
+    rect x=650 y=340 width=180 height=50 rx=25 fill=none stroke=#FFFFFF stroke-width=2
+    text x=740 y=375 fill=#FFFFFF font-family=Arial font-size=18 font-weight=bold text-anchor=middleBROWSE COURSEStext
+  g
+  
+  !-- Featured Courses Section --
+  text x=600 y=600 fill=#222222 font-family=Arial font-size=30 font-weight=bold text-anchor=middleFEATURED COURSEStext
+  line x1=500 y1=620 x2=700 y2=620 stroke=#333333 stroke-width=3
+  
+  !-- Course Cards --
+  g id=featured-courses
+    !-- Course 1 --
+    rect x=100 y=650 width=300 height=350 rx=10 fill=#FFFFFF stroke=#E0E0E0 stroke-width=1
+    rect x=100 y=650 width=300 height=150 rx=10 fill=#000000
+    text x=250 y=830 fill=#222222 font-family=Arial font-size=18 font-weight=bold text-anchor=middleWeb Developmenttext
+    text x=250 y=860 fill=#333333 font-family=Arial font-size=14 text-anchor=middleLearn modern web technologiestext
+    text x=130 y=890 fill=#333333 font-family=Arial font-size=14Duration 12 weekstext
+    text x=130 y=915 fill=#000000 font-family=Arial font-size=16 font-weight=bold$499text
+    rect x=250 y=900 width=120 height=35 rx=5 fill=#000000
+    text x=310 y=923 fill=#FFFFFF font-family=Arial font-size=14 text-anchor=middleENROLL NOWtext
+    
+    !-- Course 2 --
+    rect x=450 y=650 width=300 height=350 rx=10 fill=#FFFFFF stroke=#E0E0E0 stroke-width=1
+    rect x=450 y=650 width=300 height=150 rx=10 fill=#333333
+    text x=600 y=830 fill=#222222 font-family=Arial font-size=18 font-weight=bold text-anchor=middleData Sciencetext
+    text x=600 y=860 fill=#333333 font-family=Arial font-size=14 text-anchor=middleMaster data analysis techniquestext
+    text x=480 y=890 fill=#333333 font-family=Arial font-size=14Duration 16 weekstext
+    text x=480 y=915 fill=#000000 font-family=Arial font-size=16 font-weight=bold$699text
+    rect x=600 y=900 width=120 height=35 rx=5 fill=#000000
+    text x=660 y=923 fill=#FFFFFF font-family=Arial font-size=14 text-anchor=middleENROLL NOWtext
+    
+    !-- Course 3 --
+    rect x=800 y=650 width=300 height=350 rx=10 fill=#FFFFFF stroke=#E0E0E0 stroke-width=1
+    rect x=800 y=650 width=300 height=150 rx=10 fill=#222222
+    text x=950 y=830 fill=#222222 font-family=Arial font-size=18 font-weight=bold text-anchor=middleUX Designtext
+    text x=950 y=860 fill=#333333 font-family=Arial font-size=14 text-anchor=middleCreate engaging user experiencestext
+    text x=830 y=890 fill=#333333 font-family=Arial font-size=14Duration 10 weekstext
+    text x=830 y=915 fill=#000000 font-family=Arial font-size=16 font-weight=bold$599text
+    rect x=950 y=900 width=120 height=35 rx=5 fill=#000000
+    text x=1010 y=923 fill=#FFFFFF font-family=Arial font-size=14 text-anchor=middleENROLL NOWtext
+  g
+  
+  !-- Upcoming Courses Section --
+  text x=600 y=1070 fill=#222222 font-family=Arial font-size=30 font-weight=bold text-anchor=middleUPCOMING COURSEStext
+  line x1=500 y1=1090 x2=700 y2=1090 stroke=#333333 stroke-width=3
+  
+  !-- Upcoming Course Cards --
+  g id=upcoming-courses
+    !-- Course 1 --
+    rect x=250 y=1120 width=300 height=200 rx=10 fill=#FFFFFF stroke=#E0E0E0 stroke-width=1
+    text x=400 y=1160 fill=#222222 font-family=Arial font-size=18 font-weight=bold text-anchor=middleArtificial Intelligencetext
+    text x=400 y=1190 fill=#333333 font-family=Arial font-size=14 text-anchor=middleStarting June 15, 2025text
+    rect x=340 y=1230 width=120 height=35 rx=5 fill=#000000
+    text x=400 y=1253 fill=#FFFFFF font-family=Arial font-size=14 text-anchor=middleNOTIFY MEtext
+    
+    !-- Course 2 --
+    rect x=650 y=1120 width=300 height=200 rx=10 fill=#FFFFFF stroke=#E0E0E0 stroke-width=1
+    text x=800 y=1160 fill=#222222 font-family=Arial font-size=18 font-weight=bold text-anchor=middleCybersecuritytext
+    text x=800 y=1190 fill=#333333 font-family=Arial font-size=14 text-anchor=middleStarting July 1, 2025text
+    rect x=740 y=1230 width=120 height=35 rx=5 fill=#000000
+    text x=800 y=1253 fill=#FFFFFF font-family=Arial font-size=14 text-anchor=middleNOTIFY MEtext
+  g
+  
+  !-- Mentors Section --
+  text x=600 y=1390 fill=#222222 font-family=Arial font-size=30 font-weight=bold text-anchor=middleOUR EXPERT MENTORStext
+  line x1=500 y1=1410 x2=700 y2=1410 stroke=#333333 stroke-width=3
+  
+  !-- Mentor Cards --
+  g id=mentors
+    !-- Mentor 1 --
+    circle cx=200 cy=1510 r=70 fill=#000000
+    text x=200 y=1600 fill=#222222 font-family=Arial font-size=18 font-weight=bold text-anchor=middleDr. Sarah Johnsontext
+    text x=200 y=1625 fill=#333333 font-family=Arial font-size=14 text-anchor=middleWeb Developmenttext
+    
+    !-- Mentor 2 --
+    circle cx=400 cy=1510 r=70 fill=#333333
+    text x=400 y=1600 fill=#222222 font-family=Arial font-size=18 font-weight=bold text-anchor=middleProf. Mike Zhangtext
+    text x=400 y=1625 fill=#333333 font-family=Arial font-size=14 text-anchor=middleData Sciencetext
+    
+    !-- Mentor 3 --
+    circle cx=600 cy=1510 r=70 fill=#222222
+    text x=600 y=1600 fill=#222222 font-family=Arial font-size=18 font-weight=bold text-anchor=middleLisa Crawfordtext
+    text x=600 y=1625 fill=#333333 font-family=Arial font-size=14 text-anchor=middleUX Designtext
+    
+    !-- Mentor 4 --
+    circle cx=800 cy=1510 r=70 fill=#111111
+    text x=800 y=1600 fill=#222222 font-family=Arial font-size=18 font-weight=bold text-anchor=middleDr. Robert Chentext
+    text x=800 y=1625 fill=#333333 font-family=Arial font-size=14 text-anchor=middleArtificial Intelligencetext
+    
+    !-- Mentor 5 --
+    circle cx=1000 cy=1510 r=70 fill=#444444
+    text x=1000 y=1600 fill=#222222 font-family=Arial font-size=18 font-weight=bold text-anchor=middleAmanda Fishertext
+    text x=1000 y=1625 fill=#333333 font-family=Arial font-size=14 text-anchor=middleCybersecuritytext
+  g
+  
+  !-- Footer --
+  rect x=0 y=1700 width=1200 height=300 fill=#000000
+  
+  !-- Footer Links --
+  text x=100 y=1750 fill=#FFFFFF font-family=Arial font-size=18 font-weight=boldAbout Ustext
+  text x=100 y=1780 fill=#F5F5F5 font-family=Arial font-size=14Our Storytext
+  text x=100 y=1810 fill=#F5F5F5 font-family=Arial font-size=14Mission & Visiontext
+  text x=100 y=1840 fill=#F5F5F5 font-family=Arial font-size=14Testimonialstext
+  
+  text x=300 y=1750 fill=#FFFFFF font-family=Arial font-size=18 font-weight=boldSupporttext
+  text x=300 y=1780 fill=#F5F5F5 font-family=Arial font-size=14FAQstext
+  text x=300 y=1810 fill=#F5F5F5 font-family=Arial font-size=14Contact Ustext
+  text x=300 y=1840 fill=#F5F5F5 font-family=Arial font-size=14Privacy Policytext
+  
+  !-- Enquiry Form --
+  text x=800 y=1750 fill=#FFFFFF font-family=Arial font-size=18 font-weight=boldEnquire Nowtext
+  
+  !-- Form Fields --
+  rect x=600 y=1780 width=500 height=40 rx=5 fill=#FFFFFF
+  text x=620 y=1805 fill=#999999 font-family=Arial font-size=14Nametext
+  
+  rect x=600 y=1830 width=500 height=40 rx=5 fill=#FFFFFF
+  text x=620 y=1855 fill=#999999 font-family=Arial font-size=14Emailtext
+  
+  rect x=600 y=1880 width=500 height=60 rx=5 fill=#FFFFFF
+  text x=620 y=1905 fill=#999999 font-family=Arial font-size=14Messagetext
+  
+  rect x=600 y=1950 width=150 height=40 rx=20 fill=#333333
+  text x=675 y=1975 fill=#FFFFFF font-family=Arial font-size=16 font-weight=bold text-anchor=middleSUBMITtext
+  
+  !-- Copyright --
+  text x=600 y=1980 fill=#F5F5F5 font-family=Arial font-size=12 text-anchor=middle© 2025 Educational Platform. All rights reserved.text
+svg

@@ -1,0 +1,72 @@
+@import "../../style.scss";
+
+.header {
+  background-color: var(--white);
+  color: var(--black);
+  @include flex(space-between, center, rem(40));
+  min-height: rem(60);
+  max-height: 72px;
+  width: 100%;
+  padding: rem(11) rem(20);
+
+  .left {
+    @include flex(center, center, rem(20));
+    .title {
+      font-weight: 600;
+    }
+  }
+
+  .mid {
+    // padding-left: rem(80);
+    ul {
+      @include flex(center, center, rem(40));
+      color: var(--black-100);
+      li:hover {
+       font-weight: 600;
+       cursor: pointer;
+      }
+    }
+  }
+
+  .right {
+    flex-grow: 1;
+    @include flex(end, center);
+    @include flex(end, center, rem(20));
+  }
+}
+
+.profile_img,
+.logo {
+  @include box(rem(50), rem(50));
+  border-radius: 50%;
+}
+
+.logo {
+  border: 1px solid var(--black-300);
+}
+
+@media (max-width: 1070px) {
+  .header .mid ul li:not(:first-child) {
+    display: none;
+  }
+
+ .right .menu{
+    display: block !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .mid ul li {
+    display: none;
+  }
+
+  .right .login,.right .signup{
+    display: none;
+  }
+}
+
+@media (max-width: 468px) {
+    .title{
+        display: none;
+    }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <!-- Background (making it transparent) -->
+  <rect width="300" height="200" fill="white" opacity="0"/>
+  
+  <!-- Code brackets symbol -->
+  <path d="M70 60 L40 100 L70 140" stroke="black" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M230 60 L260 100 L230 140" stroke="black" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Center dot/circle representing studio/focus -->
+  <circle cx="150" cy="100" r="12" fill="black"/>
+  
+  <!-- Text for "CODINGS STUDIO" -->
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">CODINGS STUDIO</text>
+  
+  <!-- Connecting lines suggesting connectivity/code -->
+  <line x1="70" y1="100" x2="138" y2="100" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="162" y1="100" x2="230" y2="100" stroke="black" stroke-width="3" stroke-linecap="round"/>
+</svg>

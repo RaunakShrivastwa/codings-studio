@@ -1,0 +1,28 @@
+@import "../../style.scss";
+
+.canvas_container {
+  .offcanvas-header {
+    height: rem(72);
+    background-color: var(--black);
+    color: var(--white);
+
+    .btn-close {
+      @include box(rem(20), rem(20));
+      color: var(--white);
+    }
+  }
+
+  .offcanvas-body{
+    color: var(--black);
+    ul{
+        @include flex("","",rem(20),column);
+        li{
+              padding: rem(10);
+              &:hover{
+                background-color: var(--black-200);
+                cursor: pointer;
+              }
+        }
+    }
+  }
+}

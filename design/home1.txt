@@ -1,0 +1,402 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 4500">
+  <!-- Color Palette -->
+  <!-- Primary: #000000 (Black) -->
+  <!-- Secondary: #F5F5F5 (Light Gray) -->
+  <!-- Accent: #333333 (Dark Gray) -->
+  <!-- Text: #222222 (Near Black) -->
+  <!-- White: #FFFFFF -->
+
+  <!-- Background -->
+  <rect width="1440" height="4500" fill="#FFFFFF"/>
+  
+  <!-- Drop Shadow Filter -->
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.1"/>
+    </filter>
+    <!-- Hero Gradient -->
+    <linearGradient id="hero-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- HEADER COMPONENT (Reused across all pages) -->
+  <g id="header">
+    <rect width="1440" height="80" fill="#FFFFFF" filter="url(#shadow)"/>
+    
+    <!-- Logo -->
+    <g transform="translate(80, 20)">
+      <rect width="40" height="40" rx="8" fill="#000000"/>
+      <text x="50" y="28" font-family="Arial" font-size="24" font-weight="bold" fill="#000000">Codings Studio</text>
+    </g>
+    
+    <!-- Navigation Menu -->
+    <g transform="translate(400, 28)">
+      <text x="0" y="0" font-family="Arial" font-size="16" fill="#000000">Courses</text>
+      <text x="100" y="0" font-family="Arial" font-size="16" fill="#000000">About Us</text>
+      <text x="200" y="0" font-family="Arial" font-size="16" fill="#000000">Pricing</text>
+      <text x="280" y="0" font-family="Arial" font-size="16" fill="#000000">Blogs</text>
+    </g>
+    
+    <!-- Auth Buttons / Profile -->
+    <g transform="translate(1200, 20)">
+      <rect width="80" height="40" rx="20" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="40" y="25" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Login</text>
+      
+      <rect x="90" width="80" height="40" rx="20" fill="#000000"/>
+      <text x="130" y="25" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Sign Up</text>
+      
+      <!-- Profile Photo (shown after login) -->
+      <circle cx="200" cy="20" r="20" fill="#000000" opacity="0.1"/>
+      <text x="200" y="25" font-family="Arial" font-size="16" fill="#000000" text-anchor="middle">AB</text>
+    </g>
+  </g>
+  
+  <!-- FOOTER COMPONENT (Reused across all pages) -->
+  <g id="footer" transform="translate(0, 900)">
+    <rect width="1440" height="200" fill="#000000"/>
+    
+    <!-- Logo -->
+    <g transform="translate(80, 40)">
+      <rect width="30" height="30" rx="6" fill="#FFFFFF"/>
+      <text x="40" y="20" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Codings Studio</text>
+    </g>
+    
+    <!-- Footer Links -->
+    <g transform="translate(80, 100)">
+      <text x="0" y="0" font-family="Arial" font-size="14" fill="#FFFFFF" opacity="0.8">Courses</text>
+      <text x="0" y="25" font-family="Arial" font-size="14" fill="#FFFFFF" opacity="0.8">About Us</text>
+      <text x="0" y="50" font-family="Arial" font-size="14" fill="#FFFFFF" opacity="0.8">Pricing</text>
+    </g>
+    
+    <g transform="translate(250, 100)">
+      <text x="0" y="0" font-family="Arial" font-size="14" fill="#FFFFFF" opacity="0.8">Blogs</text>
+      <text x="0" y="25" font-family="Arial" font-size="14" fill="#FFFFFF" opacity="0.8">Contact</text>
+      <text x="0" y="50" font-family="Arial" font-size="14" fill="#FFFFFF" opacity="0.8">Terms</text>
+    </g>
+    
+    <g transform="translate(400, 100)">
+      <text x="0" y="0" font-family="Arial" font-size="14" fill="#FFFFFF" opacity="0.8">Privacy</text>
+      <text x="0" y="25" font-family="Arial" font-size="14" fill="#FFFFFF" opacity="0.8">FAQ</text>
+      <text x="0" y="50" font-family="Arial" font-size="14" fill="#FFFFFF" opacity="0.8">Support</text>
+    </g>
+    
+    <!-- Social Icons -->
+    <g transform="translate(1200, 40)">
+      <circle cx="0" cy="0" r="15" fill="#FFFFFF" opacity="0.2"/>
+      <circle cx="50" cy="0" r="15" fill="#FFFFFF" opacity="0.2"/>
+      <circle cx="100" cy="0" r="15" fill="#FFFFFF" opacity="0.2"/>
+    </g>
+    
+    <!-- Copyright -->
+    <text x="720" y="180" font-family="Arial" font-size="12" fill="#FFFFFF" opacity="0.6" text-anchor="middle">© 2025 Codings Studio. All rights reserved.</text>
+  </g>
+  
+  <!-- PAGE 1: HOME PAGE -->
+  <g id="home-page" transform="translate(0, 0)">
+    <!-- Header (placeholder, will be reused) -->
+    <use href="#header"/>
+    
+    <!-- Hero Section -->
+    <g transform="translate(0, 80)">
+      <rect width="1440" height="500" fill="#000000"/>
+      <rect width="1440" height="500" fill="url(#hero-gradient)"/>
+      
+      <text x="200" y="150" font-family="Arial" font-size="48" font-weight="bold" fill="#FFFFFF">Master Coding Skills for the Future</text>
+      <text x="200" y="210" font-family="Arial" font-size="20" fill="#FFFFFF" opacity="0.8">Join thousands of students learning to code with our expert-led courses</text>
+      
+      <rect x="200" y="250" width="200" height="50" rx="25" fill="#FFFFFF"/>
+      <text x="300" y="282" font-family="Arial" font-size="16" font-weight="bold" fill="#000000" text-anchor="middle">Explore Courses</text>
+      
+      <!-- Hero Image Placeholder -->
+      <rect x="700" y="100" width="500" height="300" rx="8" fill="#FFFFFF" opacity="0.1"/>
+    </g>
+    
+    <!-- Featured Courses Section -->
+    <g transform="translate(0, 600)">
+      <text x="720" y="50" font-family="Arial" font-size="32" font-weight="bold" fill="#000000" text-anchor="middle">Featured Courses</text>
+      
+      <!-- Course Cards -->
+      <g transform="translate(100, 100)">
+        <!-- Course Card 1 -->
+        <rect width="350" height="400" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <rect width="350" height="200" rx="8 8 0 0" fill="#000000" opacity="0.8"/>
+        <text x="20" y="240" font-family="Arial" font-size="20" font-weight="bold" fill="#000000">Web Development</text>
+        <text x="20" y="270" font-family="Arial" font-size="14" fill="#000000" opacity="0.7">Learn HTML, CSS, JavaScript and modern frameworks</text>
+        <text x="20" y="330" font-family="Arial" font-size="18" font-weight="bold" fill="#000000">$49.99</text>
+        <rect x="20" y="350" width="100" height="30" rx="15" fill="#000000"/>
+        <text x="70" y="370" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Enroll Now</text>
+      </g>
+      
+      <g transform="translate(500, 100)">
+        <!-- Course Card 2 -->
+        <rect width="350" height="400" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <rect width="350" height="200" rx="8 8 0 0" fill="#333333" opacity="0.9"/>
+        <text x="20" y="240" font-family="Arial" font-size="20" font-weight="bold" fill="#000000">Data Science</text>
+        <text x="20" y="270" font-family="Arial" font-size="14" fill="#000000" opacity="0.7">Master Python, statistics, and machine learning</text>
+        <text x="20" y="330" font-family="Arial" font-size="18" font-weight="bold" fill="#000000">$59.99</text>
+        <rect x="20" y="350" width="100" height="30" rx="15" fill="#000000"/>
+        <text x="70" y="370" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Enroll Now</text>
+      </g>
+      
+      <g transform="translate(900, 100)">
+        <!-- Course Card 3 -->
+        <rect width="350" height="400" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <rect width="350" height="200" rx="8 8 0 0" fill="#000000" opacity="0.6"/>
+        <text x="20" y="240" font-family="Arial" font-size="20" font-weight="bold" fill="#000000">Mobile App Development</text>
+        <text x="20" y="270" font-family="Arial" font-size="14" fill="#000000" opacity="0.7">Build iOS and Android apps with React Native</text>
+        <text x="20" y="330" font-family="Arial" font-size="18" font-weight="bold" fill="#000000">$54.99</text>
+        <rect x="20" y="350" width="100" height="30" rx="15" fill="#000000"/>
+        <text x="70" y="370" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Enroll Now</text>
+      </g>
+    </g>
+    
+    <!-- Footer (placeholder, will be reused) -->
+    <use href="#footer"/>
+  </g>
+  
+  <!-- PAGE 2: COURSES PAGE -->
+  <g id="courses-page" transform="translate(0, 1100)">
+    <!-- Header (reused) -->
+    <use href="#header"/>
+    
+    <!-- Page Title -->
+    <g transform="translate(0, 120)">
+      <rect width="1440" height="160" fill="#F5F5F5"/>
+      <text x="720" y="100" font-family="Arial" font-size="40" font-weight="bold" fill="#000000" text-anchor="middle">Explore Our Courses</text>
+    </g>
+    
+    <!-- Course Filter Section -->
+    <g transform="translate(100, 320)">
+      <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#000000">Filter By:</text>
+      
+      <!-- Category Filter -->
+      <rect x="0" y="20" width="120" height="40" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="60" y="45" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Category</text>
+      
+      <!-- Level Filter -->
+      <rect x="130" y="20" width="120" height="40" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="190" y="45" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Level</text>
+      
+      <!-- Price Filter -->
+      <rect x="260" y="20" width="120" height="40" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="320" y="45" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Price</text>
+      
+      <!-- Duration Filter -->
+      <rect x="390" y="20" width="120" height="40" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="450" y="45" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Duration</text>
+      
+      <!-- Search Box -->
+      <rect x="800" y="20" width="300" height="40" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="820" y="45" font-family="Arial" font-size="14" fill="#000000" opacity="0.5">Search courses...</text>
+    </g>
+    
+    <!-- Course List -->
+    <g transform="translate(100, 400)">
+      <!-- Course Item 1 -->
+      <rect width="1200" height="150" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+      <rect width="200" height="150" rx="8 0 0 8" fill="#000000" opacity="0.8"/>
+      <text x="220" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="#000000">Complete JavaScript Course 2025</text>
+      <text x="220" y="70" font-family="Arial" font-size="14" fill="#000000" opacity="0.7">Master modern JavaScript from beginner to advanced</text>
+      <text x="220" y="100" font-family="Arial" font-size="14" fill="#000000" opacity="0.7">• 42 hours • Beginner to Advanced • 4.8 ★ (2,450 reviews)</text>
+      <text x="1100" y="70" font-family="Arial" font-size="18" font-weight="bold" fill="#000000" text-anchor="end">$59.99</text>
+      <rect x="1020" y="90" width="120" height="40" rx="20" fill="#000000"/>
+      <text x="1080" y="115" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Enroll Now</text>
+    </g>
+    
+    <g transform="translate(100, 570)">
+      <!-- Course Item 2 -->
+      <rect width="1200" height="150" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+      <rect width="200" height="150" rx="8 0 0 8" fill="#333333" opacity="0.9"/>
+      <text x="220" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="#000000">Python for Data Science and ML</text>
+      <text x="220" y="70" font-family="Arial" font-size="14" fill="#000000" opacity="0.7">Learn Python programming for data analysis and machine learning</text>
+      <text x="220" y="100" font-family="Arial" font-size="14" fill="#000000" opacity="0.7">• 56 hours • Intermediate • 4.9 ★ (3,120 reviews)</text>
+      <text x="1100" y="70" font-family="Arial" font-size="18" font-weight="bold" fill="#000000" text-anchor="end">$69.99</text>
+      <rect x="1020" y="90" width="120" height="40" rx="20" fill="#000000"/>
+      <text x="1080" y="115" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Enroll Now</text>
+    </g>
+    
+    <g transform="translate(100, 740)">
+      <!-- Course Item 3 -->
+      <rect width="1200" height="150" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+      <rect width="200" height="150" rx="8 0 0 8" fill="#000000" opacity="0.6"/>
+      <text x="220" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="#000000">Full Stack Web Development</text>
+      <text x="220" y="70" font-family="Arial" font-size="14" fill="#000000" opacity="0.7">Become a complete web developer from front to back end</text>
+      <text x="220" y="100" font-family="Arial" font-size="14" fill="#000000" opacity="0.7">• 68 hours • Beginner to Advanced • 4.7 ★ (1,890 reviews)</text>
+      <text x="1100" y="70" font-family="Arial" font-size="18" font-weight="bold" fill="#000000" text-anchor="end">$79.99</text>
+      <rect x="1020" y="90" width="120" height="40" rx="20" fill="#000000"/>
+      <text x="1080" y="115" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Enroll Now</text>
+    </g>
+    
+    <!-- Pagination -->
+    <g transform="translate(600, 920)">
+      <rect width="40" height="40" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="20" y="25" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">1</text>
+      
+      <rect x="50" width="40" height="40" rx="8" fill="#000000"/>
+      <text x="70" y="25" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">2</text>
+      
+      <rect x="100" width="40" height="40" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="120" y="25" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">3</text>
+      
+      <rect x="150" width="40" height="40" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="170" y="25" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">4</text>
+      
+      <rect x="200" width="40" height="40" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="220" y="25" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">→</text>
+    </g>
+    
+    <!-- Footer (reused) -->
+    <use href="#footer"/>
+  </g>
+  
+  <!-- PAGE 3: ABOUT US PAGE -->
+  <g id="about-page" transform="translate(0, 2200)">
+    <!-- Header (reused) -->
+    <use href="#header"/>
+    
+    <!-- Hero Section -->
+    <g transform="translate(0, 120)">
+      <rect width="1440" height="300" fill="#F5F5F5"/>
+      <text x="720" y="150" font-family="Arial" font-size="40" font-weight="bold" fill="#000000" text-anchor="middle">About Codings Studio</text>
+      <text x="720" y="200" font-family="Arial" font-size="18" fill="#000000" opacity="0.7" text-anchor="middle">Our mission is to provide high-quality coding education for everyone</text>
+    </g>
+    
+    <!-- Our Story Section -->
+    <g transform="translate(200, 450)">
+      <text x="0" y="0" font-family="Arial" font-size="28" font-weight="bold" fill="#000000">Our Story</text>
+      <text x="0" y="50" font-family="Arial" font-size="16" fill="#000000" opacity="0.7" width="600">
+        Codings Studio was founded in 2020 with a simple mission: to make high-quality coding education accessible to everyone. What started as a small team of passionate developers and educators has grown into a global community of learners and instructors.
+      </text>
+      <text x="0" y="150" font-family="Arial" font-size="16" fill="#000000" opacity="0.7" width="600">
+        We believe that technology skills should be available to anyone willing to learn, regardless of their background or prior experience. Our platform has helped thousands of students transition into tech careers and upskill in their current roles.
+      </text>
+      
+      <!-- Image Placeholder -->
+      <rect x="650" y="0" width="400" height="250" rx="8" fill="#000000" opacity="0.1"/>
+    </g>
+    
+    <!-- Our Values Section -->
+    <g transform="translate(200, 750)">
+      <text x="0" y="0" font-family="Arial" font-size="28" font-weight="bold" fill="#000000">Our Values</text>
+      
+      <!-- Value Cards -->
+      <g transform="translate(0, 50)">
+        <rect width="300" height="200" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <text x="20" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="#000000">Excellence</text>
+        <text x="20" y="70" font-family="Arial" font-size="14" fill="#000000" opacity="0.7" width="260">
+          We are committed to providing the highest quality educational content and constantly improving our courses.
+        </text>
+      </g>
+      
+      <g transform="translate(350, 50)">
+        <rect width="300" height="200" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <text x="20" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="#000000">Accessibility</text>
+        <text x="20" y="70" font-family="Arial" font-size="14" fill="#000000" opacity="0.7" width="260">
+          We believe education should be accessible to everyone, regardless of location or background.
+        </text>
+      </g>
+      
+      <g transform="translate(700, 50)">
+        <rect width="300" height="200" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <text x="20" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="#000000">Community</text>
+        <text x="20" y="70" font-family="Arial" font-size="14" fill="#000000" opacity="0.7" width="260">
+          We foster a supportive community where students can learn, share, and grow together.
+        </text>
+      </g>
+    </g>
+    
+    <!-- Team Section -->
+    <g transform="translate(200, 1000)">
+      <text x="0" y="0" font-family="Arial" font-size="28" font-weight="bold" fill="#000000">Our Team</text>
+      
+      <!-- Team Member Cards -->
+      <g transform="translate(0, 50)">
+        <rect width="250" height="300" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <circle cx="125" cy="100" r="70" fill="#000000" opacity="0.1"/>
+        <text x="125" y="190" font-family="Arial" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">Sarah Johnson</text>
+        <text x="125" y="220" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Founder & CEO</text>
+        <text x="125" y="250" font-family="Arial" font-size="14" fill="#000000" opacity="0.7" text-anchor="middle" width="200">15+ years in tech education and software development</text>
+      </g>
+      
+      <g transform="translate(300, 50)">
+        <rect width="250" height="300" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <circle cx="125" cy="100" r="70" fill="#000000" opacity="0.1"/>
+        <text x="125" y="190" font-family="Arial" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">Michael Wong</text>
+        <text x="125" y="220" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">CTO</text>
+        <text x="125" y="250" font-family="Arial" font-size="14" fill="#000000" opacity="0.7" text-anchor="middle" width="200">Former Google engineer with expertise in scalable systems</text>
+      </g>
+      
+      <g transform="translate(600, 50)">
+        <rect width="250" height="300" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <circle cx="125" cy="100" r="70" fill="#000000" opacity="0.1"/>
+        <text x="125" y="190" font-family="Arial" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">Elena Rodriguez</text>
+        <text x="125" y="220" font-family="Arial" font-size="14" fill="#000000" text-anchor="middle">Head of Curriculum</text>
+        <text x="125" y="250" font-family="Arial" font-size="14" fill="#000000" opacity="0.7" text-anchor="middle" width="200">Ph.D. in Computer Science with 10+ years teaching experience</text>
+      </g>
+    </g>
+    
+    <!-- Footer (reused) -->
+    <use href="#footer"/>
+  </g>
+  
+  <!-- PAGE 4: PRICING PAGE -->
+  <g id="pricing-page" transform="translate(0, 3300)">
+    <!-- Header (reused) -->
+    <use href="#header"/>
+    
+    <!-- Hero Section -->
+    <g transform="translate(0, 120)">
+      <rect width="1440" height="240" fill="#F5F5F5"/>
+      <text x="720" y="120" font-family="Arial" font-size="40" font-weight="bold" fill="#000000" text-anchor="middle">Simple, Transparent Pricing</text>
+      <text x="720" y="170" font-family="Arial" font-size="18" fill="#000000" opacity="0.7" text-anchor="middle">Choose the plan that works best for your learning journey</text>
+    </g>
+    
+    <!-- Pricing Plans -->
+    <g transform="translate(200, 400)">
+      <!-- Basic Plan -->
+      <g>
+        <rect width="310" height="500" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <text x="155" y="50" font-family="Arial" font-size="24" font-weight="bold" fill="#000000" text-anchor="middle">Basic</text>
+        <text x="155" y="90" font-family="Arial" font-size="36" font-weight="bold" fill="#000000" text-anchor="middle">$9.99</text>
+        <text x="155" y="120" font-family="Arial" font-size="14" fill="#000000" opacity="0.7" text-anchor="middle">per month</text>
+        
+        <line x1="30" y1="150" x2="280" y2="150" stroke="#F5F5F5" stroke-width="2"/>
+        
+        <!-- Features List -->
+        <g transform="translate(40, 180)">
+          <circle cx="0" cy="0" r="5" fill="#000000"/>
+          <text x="20" y="5" font-family="Arial" font-size="14" fill="#000000">Access to 10 basic courses</text>
+          
+          <circle cx="0" cy="40" r="5" fill="#000000"/>
+          <text x="20" y="45" font-family="Arial" font-size="14" fill="#000000">Community forum access</text>
+          
+          <circle cx="0" cy="80" r="5" fill="#000000"/>
+          <text x="20" y="85" font-family="Arial" font-size="14" fill="#000000">Email support</text>
+          
+          <circle cx="0" cy="120" r="5" fill="#000000"/>
+          <text x="20" y="125" font-family="Arial" font-size="14" fill="#000000">Course completion certificates</text>
+        </g>
+        
+        <rect x="55" y="420" width="200" height="50" rx="25" fill="#000000"/>
+        <text x="155" y="450" font-family="Arial" font-size="16" fill="#FFFFFF" text-anchor="middle">Choose Basic</text>
+      </g>
+      
+      <!-- Pro Plan -->
+      <g transform="translate(360, -20)">
+        <rect width="330" height="540" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+        <rect width="330" height="8" rx="8 8 0 0" fill="#000000"/>
+        <text x="165" y="50" font-family="Arial" font-size="24" font-weight="bold" fill="#000000" text-anchor="middle">Pro</text>
+        <text x="165" y="90" font-family="Arial" font-size="36" font-weight="bold" fill="#000000" text-anchor="middle">$24.99</text>
+        <text x="165" y="120" font-family="Arial" font-size="14" fill="#000000" opacity="0.7" text-anchor="middle">per month</text>
+        
+        <rect x="115" y="140" width="100" height="25" rx="12.5" fill="#000000" opacity="0.1"/>
+        <text x="165" y="157" font-family="Arial" font-size="12" fill="#000000" text-anchor="middle">Most Popular</text>
+        
+        <line x1="30" y1="180" x2="300" y2="180" stroke="#F5F5F5" stroke-width="2"/>
+        
+        <!-- Features List -->
+        <g transform="translate(40, 210)">
+          <circle cx="0" cy="0" r="5" fill="#000000"/>
+          <text x="20" y="5" font-family="Arial" font-size="14" fill="#000000">Access to
