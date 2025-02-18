@@ -27,6 +27,10 @@
 
 @media (max-width:rem(768)){
     .home_wrapper .title_home{
-        font-size: rem(36);
+        font-size: rem(30);
+    }
+
+    .home_wrapper .desc{
+        font-size: rem(16);
     }
 }
