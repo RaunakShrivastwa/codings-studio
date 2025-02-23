@@ -13,3 +13,10 @@
     flex-direction: $direction;
     gap: $gap;
 }
+
+@mixin grid($row,$column,$gap){
+    display: grid;
+    grid-template-rows: repeat($row,2fr);
+    grid-template-columns: repeat($column,2fr);
+    gap: $gap;
+}

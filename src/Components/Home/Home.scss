@@ -1,36 +1,11 @@
-@import '../../style.scss';
+@import "../../style.scss";
 
-.home_container{
-    @include  flex("","",rem(16),column);
-    .home_wrapper{
-        margin: 0 rem(7);
-        height: rem(500);
-        background-color: var(--black);
-        color: var(--white);
-        padding: rem(16);
-        @include  flex(center,center,rem(16),column);
-        
-        .desc{
-            color: var(--white-200);
-        }
-        .course_btn{
-            @include box(rem(200),rem(50));
-            border-radius: rem(30);
-            @include flex(center,center);
-            background-color: var(--white);
-            color: var(--black);
-            cursor: pointer;
-        }
-    }
+.home_container {
+  @include flex("", "", rem(16), column); 
 }
 
-
-@media (max-width:rem(768)){
-    .home_wrapper .title_home{
-        font-size: rem(30);
-    }
-
-    .home_wrapper .desc{
-        font-size: rem(16);
-    }
+@media (max-width: 478px) {
+  .home_container .web_count {
+    grid-template-columns: repeat(2, 2fr);
+  }
 }
