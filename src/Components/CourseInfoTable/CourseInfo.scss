@@ -1,0 +1,29 @@
+@import '../../style.scss';
+
+.course_table_bg{
+    background-color: var(--black);
+    color: var(--white);
+
+    .progress-container {
+    width: 100%;
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .progress-bar {
+    height: 8px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #F5F5F5, #FFFFFF);
+    width: 80%; /* Adjust width as needed */
+  }
+
+  .progress-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    color: #F5F5F5;
+    font-size: 14px;
+  }
+}
