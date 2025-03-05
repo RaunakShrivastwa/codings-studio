@@ -5,14 +5,21 @@
 @import "./Scss//variables.scss";
 @import "./Scss/reset.scss";
 @import './Scss/Components/Button.scss';
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 body {
   font-family: "Poppins", sans-serif;
   overflow: hidden;
 }
 
-main{
-    overflow-y: auto;
-    height: calc(100vh - 70px);
-      margin: 0 rem(7);
+main {
+  overflow-y: auto;
+  height: calc(100vh - 70px);
+  margin: 0 rem(7);
+}
+
+.img_title {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
 }

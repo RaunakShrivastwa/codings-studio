@@ -1,29 +1,190 @@
 @import '../../style.scss';
 
-.course_table_bg{
-    background-color: var(--black);
-    color: var(--white);
 
-    .progress-container {
-    width: 100%;
-    background-color: #333333;
-    padding: 10px;
-    border-radius: 8px;
-    margin-top: 20px;
+.table-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: auto;
+  border: 1px solid black;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.comparison-table thead {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.comparison-table th:nth-of-type(1) {
+  text-align: left;
+}
+
+.comparison-table th:nth-of-type(2) {
+  color: #5522FA;
+}
+
+.comparison-table th:nth-of-type(3) {
+  color: #F95C5C;
+}
+
+.comparison-table th:nth-of-type(2),
+.comparison-table th:nth-of-type(3) {
+  width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .comparison-table th:nth-of-type(2),
+  .comparison-table th:nth-of-type(3),
+  .comparison-table tr:last-child {
+    display: none;
   }
 
-  .progress-bar {
-    height: 8px;
-    border-radius: 4px;
-    background: linear-gradient(90deg, #F5F5F5, #FFFFFF);
-    width: 80%; /* Adjust width as needed */
+  .comparison-table thead tr {
+    display: block !important;
   }
 
-  .progress-text {
+  .comparison-table tr {
     display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
-    color: #F5F5F5;
-    font-size: 14px;
+    flex-wrap: wrap;
   }
+
+  .comparison-table tr th:nth-of-type(1),
+  .comparison-table tr td:nth-of-type(1) {
+    width: 100%;
+  }
+
+  .comparison-table tr th:nth-of-type(2),
+  .comparison-table tr th:nth-of-type(3),
+  .comparison-table tr td:nth-of-type(2),
+  .comparison-table tr td:nth-of-type(3) {
+    flex-basis: calc(50% - 20px);
+    background-color: rgba(216, 214, 227, 0.15);
+  }
+
+  .comparison-table tr:has(strong) td:nth-of-type(2),
+  .comparison-table tr:has(strong) td:nth-of-type(3) {
+    background-color: unset;
+  }
+
+  .comparison-table tr:has(strong) td:nth-of-type(2):before {
+    content: "PRO";
+    color: #5522FA;
+    font-weight: 700;
+  }
+
+  .comparison-table tr:has(strong) td:nth-of-type(3):before {
+    content: "FREE";
+    color: #F95C5C;
+    font-weight: 700;
+  }
+}
+
+.comparison-table td:nth-of-type(1) {
+  text-align: left;
+  font-size: 1.125rem;
+}
+
+.comparison-table td:nth-of-type(2),
+.comparison-table td:nth-of-type(3) {
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+
+  .comparison-table th:nth-of-type(2),
+  .comparison-table td:nth-of-type(2) {
+    background-color: rgba(216, 214, 227, 0.15);
+  }
+}
+
+.comparison-table tr:has(> td strong) {
+  border-top: 1px dashed rgba(20, 16, 44, 0.15);
+  background-color: #FDF8F7;
+}
+
+.comparison-table tr td strong {
+  font-size: 1.5rem;
+  color: #711DB0;
+}
+
+.comparison-table tr:first-child th,
+.comparison-table tr:last-child td {
+  padding-block: 25px;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 10px;
+}
+
+.comparison-table td:first-child {
+  padding-left: 30px;
+}
+
+.comparison-table td:first-child strong,
+.comparison-table td:first-child details summary {
+  margin-left: -20px;
+}
+
+.comparison-table td:first-child strong i,
+.comparison-table td:first-child details summary i {
+  margin-right: 8px;
+  color: #736C83;
+}
+
+.comparison-table td:first-child details summary {
+  cursor: pointer;
+  font-size: 1.125rem;
+  text-decoration: underline dashed;
+  text-decoration-color: #000;
+  text-underline-offset: 4px;
+}
+
+.comparison-table td:first-child details summary:hover {
+  color: #5522FA;
+  text-decoration-color: #5522FA;
+}
+
+.comparison-table td:first-child details[open] {
+  font-size: 0.9375rem;
+}
+
+.comparison-table td:first-child details[open] summary {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  color: #5522FA;
+  text-decoration-color: #5522FA;
+}
+
+.comparison-table details summary::marker {
+  color: #B3F4E0;
+}
+
+.comparison-table td.-include:before {
+  content: "";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #5FDDC5;
+}
+
+.comparison-table td.-exclude:before {
+  content: "";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #EC8580;
+}
+
+.comparison-table .is-diff {
+  color: #5522FA;
+  font-weight: 600;
+}
+
+.comparison-table td {
+  vertical-align: top;
 }
