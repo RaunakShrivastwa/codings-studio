@@ -1,29 +1,83 @@
 @import '../../style.scss';
 
-.course_table_bg{
-    background-color: var(--black);
-    color: var(--white);
 
-    .progress-container {
+.table_wrapper {
+  padding: 0 rem(60);
+  width: 100%;
+
+  .title{
+    margin-bottom: rem(30);
+  }
+
+  .table_container{
+    @include box(100%,100%);
+    overflow-x: auto;
+  }
+
+  /* Table Styles */
+  .comparison-table {
     width: 100%;
-    background-color: #333333;
-    padding: 10px;
-    border-radius: 8px;
-    margin-top: 20px;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    // overflow-x: auto;
   }
 
-  .progress-bar {
-    height: 8px;
-    border-radius: 4px;
-    background: linear-gradient(90deg, #F5F5F5, #FFFFFF);
-    width: 80%; /* Adjust width as needed */
+  .comparison-table th,
+  .comparison-table td {
+    border: rem(1) solid var(--black-300);
+    padding: rem(12) rem(15);
+    min-width: rem(200);
+
   }
 
-  .progress-text {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
-    color: #F5F5F5;
-    font-size: 14px;
+  /* Header Row */
+  .comparison-table thead {
+    background-color: var(--black);
+  }
+
+  .comparison-table thead th {
+    color: var(--white);
+    font-weight: bold;
+    text-align: left;
+  }
+  tbody tr:hover{
+    background-color: var(--black-300);
+    color: var(--white) !important;
+  }
+
+  /* Feature Row Headers */
+  .comparison-table tbody th {
+    font-size: rem(14);
+    color: var(--black);
+    font-weight: 600;
+    text-align: left;
+  }
+
+  /* Content Cells */
+  .comparison-table tbody td {
+    color: var(--black-200);
+    font-size: rem(14);
+  }
+
+  /* Price Row */
+  .price-row th,
+  .price-row td {
+    font-size: 1.1rem;
+  }
+
+  .price-row td {
+    font-weight: bold;
+    color: var(--green) !important; 
+  }
+
+}
+
+@media (max-width: 770px) {
+  .table_wrapper {
+    padding: 0 rem(10) !important;
+  }
+
+  .comparison-table {
+    font-size: 0.9rem;
   }
 }
