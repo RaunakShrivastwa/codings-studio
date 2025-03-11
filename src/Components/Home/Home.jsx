@@ -4,6 +4,8 @@ import Banner from "../Banner/Banner";
 import Counter from "../Counter/Counter";
 import CardInfo from "../CardInfo/CardInfo";
 import CourseInfoTable from "../CourseInfoTable/CourseInfoTable";
+import Chart from "../Chart/Chart";
+import Mentor from "../Mentor/Mentor";
 const Home = () => {
   const data = [
     { counter_key: "20+", counter_value: "Our Courses" },
@@ -71,6 +73,8 @@ const Home = () => {
       <CardInfo title={"Featured Programs"} course={featured} />
       <CardInfo title={"Upcoming Courses"} course={featured} />
       <CourseInfoTable />
+      <Chart />
+      <Mentor />
       {/* <CardInfo title={"Experts Mentors"} mentor={mentor} /> */}
     </div>
   );

@@ -3,7 +3,7 @@ import './Counter.scss';
 
 const Counter = ({data}) => {
   return (
-    <div className="web_count mt-5">
+    <div className="web_count mt-5 mb-3">
       {data.map((item) => (
         <div className="item fs-48">
           <span className="item_text">{item?.counter_key}</span>

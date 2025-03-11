@@ -8,7 +8,7 @@ const Header = () => {
     <div className="header">
       <div className="left">
         <img className="logo" src="./logo.svg" alt="" />
-        <p className="fs-24 title">Codings Studio</p>
+        <p className="fs-24 title mb-0">Codings Studio</p>
       </div>
 
       <div className="mid fs-16">

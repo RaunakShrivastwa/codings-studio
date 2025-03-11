@@ -1,15 +1,16 @@
 import React from "react";
 import "./CardInfo.scss";
 import { Check } from "react-feather";
+import Title from "../../common/Title/Title";
 
 const CardInfo = ({ title, course, mentor }) => {
   if (mentor) {
     return (
       <div className="card_info mt-5">
-        <p className="fs-36 title text-center">{title}</p>
+        <Title title={title} />
         <div className="card_info_container">
           {mentor.map((data) => (
-            <div className="card_item d-none mb-3">
+            <div className="card_item d-none">
               <div className="img">
                 {/* <img className="h-100 w-100" src={data?.img} alt="" /> */}
               </div>
@@ -35,11 +36,11 @@ const CardInfo = ({ title, course, mentor }) => {
   }
   if (course) {
     return (
-      <div className="card_info mt-5">
-        <p className="fs-36 title text-center">{title}</p>
+      <div className="card_info">
+       <Title title={title} />
         <div className="card_info_container">
           {course.map((data) => (
-            <div className="card_item mb-3">
+            <div className="card_item">
               <div className="img">
                 <span className="fs-30 img_title">{data?.lecture}</span>
                 {/* <img className="h-100 w-100" src={data?.img} alt="" /> */}

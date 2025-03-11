@@ -1,11 +1,12 @@
 import React from 'react';
-import './CourseInfo.scss'
+import './CourseInfo.scss';
+import Title from '../../common/Title/Title';
 
 const CourseInfoTable = () => {
 
   return (
-    <div className="w-100 table_wrapper">
-      <p className='fs-36 text-center mt-5 title'>What We Offers</p>
+    <div className="w-100 table_wrapper mt-3">
+     <Title title={'What We Offers'} />
       <div className="table_container">
         <table class="comparison-table">
           <thead>
