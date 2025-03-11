@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import Title from '../../common/Title/Title';
+import './Mentor.scss';
 
 const Mentor = () => {
   // Sample mentor data - replace with your actual data
@@ -51,12 +51,12 @@ const Mentor = () => {
   const [selectedMentor, setSelectedMentor] = useState(null);
 
   return (
-    <div className="container py-5 mt-5">
+    <div className="container py-5 mt-5 ">
       <div className="row mb-4">
         <div className="col-12 text-center">
          <Title title={"Our Experts Mentor"} />
-          <p className="lead text-muted">Learn from industry experts who guide our program</p>
-          <hr className="my-4 mx-auto" style={{ width: "50%" }} />
+          <p className="lead text-muted fs-20">Learn from industry experts who guide our program</p>
+          <hr className="my-4 mx-auto w-50" />
         </div>
       </div>
 
@@ -67,9 +67,8 @@ const Mentor = () => {
               <div className="text-center pt-4">
                 <img 
                   src={mentor.imageUrl} 
-                  className="rounded-circle mb-3" 
+                  className="rounded-circle mentor_img mb-3" 
                   alt={mentor.name} 
-                  style={{ width: "120px", height: "120px", objectFit: "cover" }}
                 />
               </div>
               <div className="card-body text-center">
@@ -86,7 +85,7 @@ const Mentor = () => {
                 </div>
                 
                 <button 
-                  className="btn btn-outline-primary btn-sm" 
+                  className="btn fill_btn btn-sm" 
                   data-bs-toggle="modal" 
                   data-bs-target="#mentorModal"
                   onClick={() => setSelectedMentor(mentor)}
@@ -113,9 +112,8 @@ const Mentor = () => {
                   <div className="text-center mb-3">
                     <img 
                       src={selectedMentor.imageUrl} 
-                      className="rounded-circle" 
+                      className="rounded-circle mentor_img" 
                       alt={selectedMentor.name} 
-                      style={{ width: "150px", height: "150px", objectFit: "cover" }}
                     />
                   </div>
                   <h6 className="fw-bold">{selectedMentor.title}</h6>
@@ -137,8 +135,8 @@ const Mentor = () => {
                   <p>{selectedMentor.contact}</p>
                 </div>
                 <div className="modal-footer">
-                  <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" className="btn btn-primary">Request Mentorship</button>
+                  <button type="button" className="btn outline_btn" data-bs-dismiss="modal">Close</button>
+                  <button type="button" className="btn fill_btn">Request Mentorship</button>
                 </div>
               </>
             )}

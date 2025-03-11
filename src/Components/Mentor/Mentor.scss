@@ -1,107 +1,26 @@
-.user-carousel-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 20px;
-    min-height: 400px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .carousel-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    z-index: 2;
-  }
-  
-  .user-info {
-    text-align: center;
-    padding: 20px;
-    flex: 1;
-  }
-  
-  .active-user-image {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto 20px;
-    border: 5px solid #fff;
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  }
-  
-  .active-user-image img {
-    width: 100%;
-    height: 100%;
+@import '../../style.scss';
+
+.mentor_img{
+  @include box(rem(120), rem(120));
     object-fit: cover;
+}
+
+.fill_btn{
+  background-color: var(--black) !important;
+  color: var(--white);
+  &:hover{
+    background-color: var(--black) !important;
+    color: var(--white);
   }
-  
-  .username {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #333;
+}
+
+.outline_btn{
+  border: rem(1) solid var(--black);
+  &:hover{
+    border: rem(1) solid var(--black);
   }
-  
-  .experience {
-    font-size: 16px;
-    font-style: italic;
-    color: #666;
-    margin-bottom: 15px;
-  }
-  
-  .description {
-    color: #555;
-    line-height: 1.6;
-  }
-  
-  .carousel-control {
-    background: none;
-    border: none;
-    font-size: 24px;
-    color: #007bff;
-    cursor: pointer;
-    padding: 10px;
-    transition: all 0.3s ease;
-  }
-  
-  .carousel-control:hover {
-    color: #0056b3;
-    transform: scale(1.2);
-  }
-  
-  .floating-images-left,
-  .floating-images-right {
-    position: relative;
-    width: 20%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .floating-image {
-    position: absolute;
-    transition: all 0.5s ease;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-  }
-  
-  .floating-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  /* Add Bootstrap Icons */
-  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+}
+
+
+
+
