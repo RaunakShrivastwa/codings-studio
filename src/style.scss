@@ -23,3 +23,15 @@ main {
   font-weight: 400;
   font-style: normal;
 }
+
+ .course_btn {
+   @include box(rem(200), rem(50));
+   border-radius: rem(30);
+   @include flex(center, center);
+   cursor: pointer;
+ }
+
+ .canvas_container{
+  width: 80% !important;
+  background-color: red !important;
+ }

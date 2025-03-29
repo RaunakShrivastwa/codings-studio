@@ -11,3 +11,72 @@
     --purple: rgba(9, 81, 81, 0.873);
 
 }
+
+.white {
+    color: var(--white);
+}
+
+.white-200 {
+    color: var(--white-200);
+}
+
+.black {
+    color: var(--black);
+}
+
+.black-100 {
+    color: var(--black-100);
+}
+
+.black-200 {
+    color: var(--black-200);
+}
+
+.black-300 {
+    color: var(--black-300);
+}
+
+.box-bg {
+    background-color: var(--box-bg);
+}
+
+.green {
+    color: var(--green);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+/* Background-color classes if needed */
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-white-200 {
+    background-color: var(--white-200);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-black-100 {
+    background-color: var(--black-100);
+}
+
+.bg-black-200 {
+    background-color: var(--black-200);
+}
+
+.bg-black-300 {
+    background-color: var(--black-300);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}

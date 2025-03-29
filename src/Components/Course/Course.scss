@@ -1,0 +1,31 @@
+@import '../../style.scss';
+
+.hero {
+    height: rem(480)
+}
+
+.sort_by_text{
+    width: rem(108);
+}
+
+.filter_tags{
+    border: rem(1) solid var(--black-300);
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+
+@media (max-width:980px) {
+    .hero {
+        height: unset !important;
+        margin-bottom: rem(16);
+    }
+}
+
+@media (max-width:768px) {
+    .hero {
+        padding-top: rem(20);
+    }
+}

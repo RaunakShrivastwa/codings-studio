@@ -54,9 +54,9 @@ Link {
 
 // Reset Input Fields
 input,
-textarea {
-    outline: none;
-    box-shadow: none;
+textarea,select {
+    outline: none !important;
+    box-shadow: none !important;
     border: 1px solid #ccc;
     padding: 8px;
     font-size: 14px;
