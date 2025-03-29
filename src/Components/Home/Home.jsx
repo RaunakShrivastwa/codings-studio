@@ -68,6 +68,7 @@ const Home = () => {
         desc={
           " Join thousands of students learning to code with our expert-led courses"
         }
+        url={'/studio/course'}
       />
       <Counter data={data} />
       <CardInfo title={"Featured Programs"} course={featured} />

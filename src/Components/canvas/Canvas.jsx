@@ -6,7 +6,7 @@ const Canvas = () => {
   return (
     <>
       <div
-        class="offcanvas w-50 canvas_container offcanvas-end"
+        class="offcanvas canvas_container offcanvas-end"
         tabindex="-1"
         id="offcanvasRight"
         aria-labelledby="offcanvasRightLabel"

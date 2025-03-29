@@ -1,38 +1,128 @@
 @import './function.scss';
 
+/* Base Font Variables */
+:root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-30: 30px;
+    --fs-36: 36px;
+    --fs-48: 48px;
+    --fs-52: 52px;
+}
+
+/* Font Size Classes using Variables */
 .fs-12 {
-    font-size: rem(12);
+    font-size: var(--fs-12);
 }
 
 .fs-14 {
-    font-size: rem(14);
+    font-size: var(--fs-14);
 }
 
 .fs-16 {
-    font-size: rem(16);
+    font-size: var(--fs-16);
 }
 
 .fs-20 {
-    font-size: rem(20);
+    font-size: var(--fs-20);
 }
 
-.fs-24{
-  font-size: rem(24) !important;
+.fs-24 {
+    font-size: var(--fs-24) !important;
 }
 
 .fs-30 {
-    font-size: rem(30);
+    font-size: var(--fs-30);
 }
 
 .fs-36 {
-    font-size: rem(36);
+    font-size: var(--fs-36);
 }
 
 .fs-48 {
-    font-size: rem(48);
+    font-size: var(--fs-48);
 }
 
 .fs-52 {
-    font-size: rem(52);
+    font-size: var(--fs-52);
 }
 
+/* Responsive Media Queries to Adjust Variable Values */
+
+/* Tablets and smaller laptops (1024px and below) */
+@media (max-width: 1024px) {
+    :root {
+        --fs-12: 11px;
+        --fs-14: 13px;
+        --fs-16: 15px;
+        --fs-20: 18px;
+        --fs-24: 22px;
+        --fs-30: 28px;
+        --fs-36: 34px;
+        --fs-48: 45px;
+        --fs-52: 50px;
+    }
+}
+
+/* Tablets in portrait or smaller devices (768px and below) */
+@media (max-width: 768px) {
+    :root {
+        --fs-12: 10px;
+        --fs-14: 12px;
+        --fs-16: 14px;
+        --fs-20: 16px;
+        --fs-24: 20px;
+        --fs-30: 26px;
+        --fs-36: 30px;
+        --fs-48: 40px;
+        --fs-52: 46px;
+    }
+}
+
+/* Small mobile devices (480px and below) */
+@media (max-width: 480px) {
+    :root {
+        --fs-12: 9px;
+        --fs-14: 11px;
+        --fs-16: 13px;
+        --fs-20: 15px;
+        --fs-24: 18px;
+        --fs-30: 24px;
+        --fs-36: 28px;
+        --fs-48: 36px;
+        --fs-52: 40px;
+    }
+}
+
+/* Extra small mobile devices (320px and below) */
+@media (max-width: 320px) {
+    :root {
+        --fs-12: 8px;
+        --fs-14: 10px;
+        --fs-16: 12px;
+        --fs-20: 14px;
+        --fs-24: 16px;
+        --fs-30: 20px;
+        --fs-36: 24px;
+        --fs-48: 30px;
+        --fs-52: 34px;
+    }
+}
+
+/* Ultra small devices (250px and below) */
+@media (max-width: 250px) {
+    :root {
+        --fs-12: 7px;
+        --fs-14: 9px;
+        --fs-16: 11px;
+        --fs-20: 12px;
+        --fs-24: 14px;
+        --fs-30: 18px;
+        --fs-36: 22px;
+        --fs-48: 28px;
+        --fs-52: 32px;
+    }
+}
