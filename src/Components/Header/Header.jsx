@@ -25,7 +25,6 @@ const Header = () => {
 
       <div className="right fs-16">
         <button className="btn_outline login">Login</button>
-        <button className="btn_fill signup">Sign Up</button>
         <img
           className="profile_img"
           src="https://cdn-icons-png.flaticon.com/128/18955/18955674.png"

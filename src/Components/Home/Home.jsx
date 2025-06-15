@@ -17,7 +17,7 @@ const Home = () => {
     {
       lecture: "JavaScript",
       desc: "Advanced Topics and Practicals",
-      img: "https://wallpapercave.com/wp/wp12456163.jpg",
+      img: "https://bsmedia.business-standard.com/_media/bs/img/article/2023-12/03/full/1701622678-4068.jpg?im=FitAndFill=(826,465)",
       session: "25-30",
       time: "25-30",
       duration: "3-6",
@@ -25,7 +25,39 @@ const Home = () => {
     {
       lecture: "JavaScript",
       desc: "Advanced Topics and Practicals",
-      img: "https://wallpapercave.com/wp/wp12456163.jpg",
+      img: "https://bsmedia.business-standard.com/_media/bs/img/article/2023-12/03/full/1701622678-4068.jpg?im=FitAndFill=(826,465)",
+      session: "25-30",
+      time: "25-30",
+      duration: "3-6",
+    },
+    {
+      lecture: "JavaScript",
+      desc: "Advanced Topics and Practicals",
+      img: "https://bsmedia.business-standard.com/_media/bs/img/article/2023-12/03/full/1701622678-4068.jpg?im=FitAndFill=(826,465)",
+      session: "25-30",
+      time: "25-30",
+      duration: "3-6",
+    },
+    {
+      lecture: "JavaScript",
+      desc: "Advanced Topics and Practicals",
+      img: "https://bsmedia.business-standard.com/_media/bs/img/article/2023-12/03/full/1701622678-4068.jpg?im=FitAndFill=(826,465)",
+      session: "25-30",
+      time: "25-30",
+      duration: "3-6",
+    },
+    {
+      lecture: "JavaScript",
+      desc: "Advanced Topics and Practicals",
+      img: "https://bsmedia.business-standard.com/_media/bs/img/article/2023-12/03/full/1701622678-4068.jpg?im=FitAndFill=(826,465)",
+      session: "25-30",
+      time: "25-30",
+      duration: "3-6",
+    },
+    {
+      lecture: "JavaScript",
+      desc: "Advanced Topics and Practicals",
+      img: "https://bsmedia.business-standard.com/_media/bs/img/article/2023-12/03/full/1701622678-4068.jpg?im=FitAndFill=(826,465)",
       session: "25-30",
       time: "25-30",
       duration: "3-6",
@@ -64,13 +96,8 @@ const Home = () => {
   return (
     <div className="home_container">
       <Banner
-        title={" Master Coding Skills for the Future"}
-        desc={
-          " Join thousands of students learning to code with our expert-led courses"
-        }
-        url={'/studio/course'}
       />
-      <Counter data={data} />
+      {/* <Counter data={data} /> */}
       <CardInfo title={"Featured Programs"} course={featured} />
       <CardInfo title={"Upcoming Courses"} course={featured} />
       <CourseInfoTable />

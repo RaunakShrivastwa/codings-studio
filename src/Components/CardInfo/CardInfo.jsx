@@ -42,8 +42,8 @@ const CardInfo = ({ title, course, mentor }) => {
           {course.map((data) => (
             <div className="card_item">
               <div className="img">
-                <span className="fs-30 img_title">{data?.lecture}</span>
-                {/* <img className="h-100 w-100" src={data?.img} alt="" /> */}
+                {/* <span className="fs-30 img_title">{data?.lecture}</span> */}
+                <img className="h-100 w-100" src={data?.img} alt="" />
               </div>
               <div className="body">
                 <p className="fs-24">{data?.lecture}</p>
