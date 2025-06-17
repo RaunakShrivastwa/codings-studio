@@ -6,6 +6,7 @@ import CardInfo from "../CardInfo/CardInfo";
 import CourseInfoTable from "../CourseInfoTable/CourseInfoTable";
 import Chart from "../Chart/Chart";
 import Mentor from "../Mentor/Mentor";
+import Navbar from '../../Components/UI/NavbarUI';
 const Home = () => {
   const data = [
     { counter_key: "20+", counter_value: "Our Courses" },
@@ -95,6 +96,7 @@ const Home = () => {
 
   return (
     <div className="home_container">
+      <Navbar />
       <Banner
       />
       {/* <Counter data={data} /> */}

@@ -1,0 +1,24 @@
+// @import './variables';
+@import '../variables.scss';
+@import '../function.scss';
+@import '../mixing.scss';
+
+
+.input_group{
+    @include box(100%,rem(50));
+    border-radius: rem(6);
+    border: rem(2) solid var(--bg-primary);
+    background-color: var(--bg-white);
+    @include flex("",center,rem(6));
+    // background-color: var(--bg-primary);
+    padding: 0 rem(10);
+    input{
+        border: none;
+        height: 100%;
+        flex-grow: 1;
+        border-radius: none !important;
+        @include fontStyle(var(--fs-18),rem(20),500);
+        color: var(--bg-primary);
+    }
+   
+}

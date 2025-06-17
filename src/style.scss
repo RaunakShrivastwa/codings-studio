@@ -6,6 +6,7 @@
 @import "./Scss/reset.scss";
 @import './Scss/Components/Button.scss';
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import './Scss/Components/input.scss';
 
 body {
   font-family: "Poppins", sans-serif;
@@ -35,3 +36,18 @@ main {
   width: 80% !important;
   background-color: red !important;
  }
+
+ .navlist {
+ li{
+   color: #1e1e1e;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+  font-weight: 500;
+
+  &:hover {
+    color: #FFD166; // Accent color on hover
+  }
+ }
+}

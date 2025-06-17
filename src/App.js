@@ -5,6 +5,8 @@ import Home from "./Components/Home/Home";
 import Course from './Components/Course/Course'
 import "./style.scss";
 import Footer from "./common/Footer/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   return (

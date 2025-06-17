@@ -20,3 +20,9 @@
     grid-template-columns: repeat($column,2fr);
     gap: $gap;
 }
+
+@mixin fontStyle($size,$height,$weight){
+    font-size: $size;
+    line-height: $height;
+    font-weight: $weight;
+}

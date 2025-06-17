@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import { Menu } from "react-feather";
+import { Menu, Search } from "react-feather";
 import Canvas from "../canvas/Canvas";
 import { Link } from "react-router-dom";
 
@@ -9,24 +9,19 @@ const Header = () => {
     <div className="header">
       <div className="left">
         <img className="logo" src="./logo.svg" alt="" />
-        <p className="fs-24 title mb-0"><Link to={'/'}>Codings Studio</Link></p>
+        <p className="fs-24 title mb-0 text_primary">Codings Studio</p>
       </div>
 
       <div className="mid fs-16">
-        <ul className="navlist">
-          <li>
-            <Link to={'/studio/course'} >Courses</Link>
-          </li>
-          <li>About Us</li>
-          <li>Pricing</li>
-          <li>Blogs</li>
-        </ul>
+        <div class="input_group">
+          <input type="text" placeholder="Search Your Products Dude..." />
+          <Search className="fs-1 text-dark " />
+        </div>
       </div>
 
-      <div className="right fs-16">
-        <button className="btn_outline login">Login</button>
+      <div className="right text-primary fs-16">
         <img
-          className="profile_img"
+          className="profile_img text-primary"
           src="https://cdn-icons-png.flaticon.com/128/18955/18955674.png"
           alt=""
         />

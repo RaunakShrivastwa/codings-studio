@@ -41,11 +41,11 @@ const Banner = () => {
         {banners.map((item, index) => (
           <SwiperSlide key={index}>
             <div className="banner_slide" style={{ backgroundImage: `url(${item.image})` }}>
-              <div className="banner_overlay">
-                <div className="banner_content">
+              <div className="banner_overlay w-100">
+                <div className="banner_content d-flex flex-column justify-content-center align-items-center">
                   <h2>{item.title}</h2>
-                  <p>{item.desc}</p>
-                  <Link to={item.url} className="course_btn">Explore Courses</Link>
+                  <p className='text-center w-100' >{item.desc}</p>
+                  <Link to={item.url} className="course_btn bg_primary text-light">Explore Courses</Link>
                 </div>
               </div>
             </div>

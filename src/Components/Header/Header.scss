@@ -17,9 +17,10 @@
   }
 
   .mid {
+    flex-grow: 1;
     // padding-left: rem(80);
     ul {
-      @include flex(center, center, rem(40));
+      @include flex(center, center, rem(10));
       color: var(--black-100);
       li:hover {
        font-weight: 600;
@@ -29,7 +30,7 @@
   }
 
   .right {
-    flex-grow: 1;
+    
     @include flex(end, center);
     @include flex(end, center, rem(20));
   }

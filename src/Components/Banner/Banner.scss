@@ -67,7 +67,8 @@
 // Swiper navigation arrows
 .swiper-button-prev,
 .swiper-button-next {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--bg-primary);
+  opacity: 0.3;
   width: 50px !important;
   height: 50px !important;
   border-radius: 50%;
